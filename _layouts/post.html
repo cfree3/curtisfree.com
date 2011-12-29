@@ -1,0 +1,32 @@
+{% include doctype.html %}
+    <title>CurtisFree.com Blog &rarr; {{ page.title }}</title>
+{% include to_canon.html %}
+{% include canon.html %}
+{% include to_slink.html %}
+                      <a id="blog_link" href="/blog">Blog</a>
+{% include to_pgbody.html %}
+            <div class="content">
+
+              <h3 class="post_title">{{ page.title }}</h3>
+
+              <div class="post_body">
+                {{ content }}
+              </div>
+
+              <h4 class="post_meta">
+                [ {{ page.date | date:'%d %b %Y @ %I:%M %p' }} ]
+                {% if page.tags.size > 0 %}
+                [
+                  {% for tag in page.tags %}
+                    {{ tag }}{% if forloop.last == false %}, {% endif %}
+                  {% endfor %}
+                ]
+                {% endif %}
+                [ <a href="{{ page.path }}">Permalink</a> ]
+                [ <a href="mailto:cf@curtisfree.com?subject=Blog ({{ page.path | remove_first:'/blog/' }})">?</a> ]
+              </h4>
+
+            </div>
+
+            {% include nextlink.html %}
+{% include from_pgbody.html %}

@@ -1,0 +1,60 @@
+# CurtisFree.com
+# .htaccess
+# Copyright 2008-2011 Curtis Free. All rights reserved.
+
+# References
+# ----------
+# http://perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/
+# http://joseph.randomnetworks.com/2004/07/22/redirect-to-ssl-using-apaches-htaccess/
+# http://httpd.apache.org/docs/1.3/mod/mod_rewrite.html
+# http://stackoverflow.com/questions/1068595/htaccess-code-to-remove-extension-and-addforce-trailing-slash
+# http://www.addedbytes.com/for-beginners/url-rewriting-for-beginners/
+# https://httpd.apache.org/docs/2.0/misc/rewriteguide.html
+
+# Don't expose the server.
+ServerSignature off
+
+# Enable URL rewriting.
+RewriteEngine on
+
+# Never ever use physical file locations in rewrites.
+RewriteBase /
+
+# Remove subdomains (including "www").
+RewriteCond %{HTTP_HOST} ^.*\.curtisfree\.com$ [NC]
+RewriteRule ^(.*)$ http://curtisfree.com/$1    [R=301,L]
+
+# Easy access to config files.
+RewriteCond %{REQUEST_URI} ^/config/.*$
+RewriteRule ^config/(.*)$ https://raw.github.com/cfree3/config/master/$1 [R=303,L]
+
+# Redirects (as rewrites to prevent further rewriting).
+
+  # /config
+  RewriteCond %{REQUEST_URI} ^/config$
+  RewriteRule ^(.*)$ https://github.com/cfree3/config [R=303,L]
+
+  # /projects/clipw
+  RewriteCond %{REQUEST_URI} ^/projects/clipw$
+  RewriteRule ^(.*)$ https://github.com/cfree3/clipw [R=303,L]
+
+  # /projects/userscripts
+  RewriteCond %{REQUEST_URI} ^/projects/userscripts$
+  RewriteRule ^(.*)$ https://github.com/cfree3/userscripts [R=303,L]
+
+  # /rebecca
+  RewriteCond %{REQUEST_URI} ^/rebecca$
+  RewriteRule ^(.*)$ http://curtisandrebecca.com [R=303,L]
+
+  # /scripts
+  RewriteCond %{REQUEST_URI} ^/scripts$
+  RewriteRule ^(.*)$ https://github.com/cfree3/scripts [R=303,L]
+
+  # /wishlist
+  RewriteCond %{REQUEST_URI} ^/wishlist$
+  RewriteRule ^(.*)$ https://www.amazon.com/registry/wishlist/3VSGTZRPLX045?sort=priority [R=303,L]
+
+# Allow certain passthroughs; all other requests go through index.php.
+RewriteCond %{REQUEST_URI} !^/(go.php)|(imgs(/.*)?)|(style.css)|(favicon.ico)|(robots.txt)$
+RewriteRule ^(.*)$ go.php [L]
+

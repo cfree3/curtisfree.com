@@ -1,0 +1,10 @@
+{% include doctype.html %}
+    <title>{{ page.title }}</title>
+{% include to_canon.html %}
+{% include canon.html %}
+{% include to_slink.html %}
+{% include to_pgbody.html %}
+            <div class="content">
+              {{ content }}
+            </div>
+{% include from_pgbody.html %}

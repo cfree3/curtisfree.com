@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>CurtisFree.com Blog</title>
+  <subtitle>I'm a geek, and I have the most wonderful wife in the anywhere.</subtitle>
+  <icon>{{ site.url }}/favicon.ico</icon>
+  <author>
+    <name>Curtis Free</name>
+    <email>cf@curtisfree.com</email>
+  </author>
+  <link href="{{ site.url }}/blog" />
+  <link href="{{ site.url }}/blog/feed" rel="self" />
+  {% for post in site.posts %}
+  <entry>
+
+    {% capture permalink %}/{{ post.id | remove:"/content/" }}{% endcapture %}
+    {% capture root %}='{{ site.url }}/{% endcapture %}
+    <title>{{ post.title }}</title>
+    <link href="{{ site.url }}{{ permalink }}" />
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <content type="html">
+      {{ post.content | xml_escape | replace:"='/",root }}
+    </content>
+
+  </entry>
+  {% endfor %}
+</feed>
+
