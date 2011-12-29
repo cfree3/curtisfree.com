@@ -18,8 +18,10 @@ Note, however, that if all of the printable characters in your title are links, 
 use the links _below_ it in the blog list to go to its settings (as the usually-clickable title
 will have your links).
 
-**Update (24 Sep 2011):**
-> While this tip still works:
-> 1. I don't use [Blogger](http://blogger.com) anymore; I use [jekyll](http://jekyllrb.com/).
-> 2. The mention of links in the Blogger UI is probably no longer accurate.
+#### _Update (24 Sep 2011):_
+
+While this tip still works:
+
+1. I don't use [Blogger](http://blogger.com) anymore; I use [jekyll](http://jekyllrb.com/).
+2. The mention of links in the Blogger UI is probably no longer accurate.
 

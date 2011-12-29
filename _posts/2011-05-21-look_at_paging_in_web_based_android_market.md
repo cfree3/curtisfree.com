@@ -42,9 +42,10 @@ But what motivated Google's design? There are multiple possibilities:
 
 Interesting design, Google.
 
-**Update (03 Jul 2011):**
-> It appears that the Market is no longer using the page selector described in this post. Instead,
-> the selector now offers the first 10 pages while on page `x < 10`, and pages `x - 5` through `x + 5`
-> (inclusive; 11 total) thereafter until there are too few pages left to do so, at which point the
-> last 11 pages are shown.
+#### Update: _Update (03 Jul 2011):_
+
+It appears that the Market is no longer using the page selector described in this post. Instead,
+the selector now offers the first 10 pages while on page `x < 10`, and pages `x - 5` through `x + 5`
+(inclusive; 11 total) thereafter until there are too few pages left to do so, at which point the
+last 11 pages are shown.
 
