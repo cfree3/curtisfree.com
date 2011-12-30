@@ -216,6 +216,10 @@ p {
     margin-top:    1.2em;
 }
 
+ul,ol {
+    margin-left: 2em;
+}
+
 pre {
     background-color: #F8F8F8;
     border-left:      medium solid #6B8E23;
