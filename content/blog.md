@@ -25,7 +25,7 @@ layout: blog
       ]
       {% endif %}
       [ <a href="{{ permalink }}">Permalink</a> ]
-      [ <a href="mailto:cf@curtisfree.com?subject=Blog ({{ permalink }})">?</a> ]
+      [ <a href="mailto:cf@curtisfree.com?subject=Blog ({{ post.path | remove_first:'/blog/' }})">?</a> ]
     </h4>
 
   </div>
