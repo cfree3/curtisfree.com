@@ -192,18 +192,21 @@ img.right {
     float: right;
 }
 
+.post_body div.imgs {
+    text-align: center;
+}
+
+.post_body div.imgs img {
+    display: inline !important;
+    margin:  0 1em 0 1em !important;
+}
+
 .post_body img.left {
-    margin-bottom: 1em !important;
-    margin-left:   2em !important;
-    margin-right:  1em !important;
-    margin-top:    1em !important;
+    margin: 1em 1em 1em 2em !important;
 }
 
 .post_body img.right {
-    margin-bottom: 1em !important;
-    margin-left:   1em !important;
-    margin-right:  2em !important;
-    margin-top:    1em !important;
+    margin: 1em 2em 1em 1em !important;
 }
 
 img.seamless {
