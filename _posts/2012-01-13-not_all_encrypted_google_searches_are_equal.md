@@ -17,6 +17,10 @@ servers. While I do not often (okay, _ever_) use "open Wi-Fi," failure to use an
 connection means that there is increased potential for a session hijack (as highlighted by the
 widely-publicized [Firesheep](http://codebutler.com/firesheep)).
 
+<div class="imgs">
+  <a href="/imgs/g_https_encrypted.png"><img src="/imgs/g_https_encrypted.png" width="250" height="174" /></a><a href="/imgs/g_https_www.png"><img src="/imgs/g_https_www.png" width="250" height="174" /></a>
+</div>
+
 Aside from differences in each version's "frills," there is an important security-relevant
 difference between the two: the underlying search result links.
 
