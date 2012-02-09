@@ -1,6 +1,6 @@
 ---
 title:  A look at paging in the Web-based Android Market
-date:   2011-05-21 13:39:00
+date:   2011-05-21 17:39:00
 path:   /blog/2011/05/21/look_at_paging_in_web_based_android_market
 layout: post
 tags:   [Android, design, UI]
