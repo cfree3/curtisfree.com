@@ -33,7 +33,7 @@ to your shell config (`~/.bashrc` or perhaps `~/.bash_profile`), you can emulate
             echo -e "       cd to_replace replace_with"
             return 1
         else
-            new_pwd=$(echo ${PWD} | sed "s/${1}/${2}/")
+            local new_pwd=$(echo ${PWD} | sed "s/${1}/${2}/")
             echo ${new_pwd} && builtin cd ${new_pwd}
         fi
     }
