@@ -29,8 +29,8 @@ to your shell config (`~/.bashrc` or perhaps `~/.bash_profile`), you can emulate
         if [ $# -eq 1 ]; then
             builtin cd ${1}
         elif [ $# -gt 2 ]; then
-            echo -e "usage: cd path"
-            echo -e "       cd to_replace replace_with"
+            echo -e "usage: cd path" >&2
+            echo -e "       cd to_replace replace_with" >&2
             return 1
         else
             local new_pwd=$(echo ${PWD} | sed "s/${1}/${2}/")
