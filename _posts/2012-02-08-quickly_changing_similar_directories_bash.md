@@ -34,10 +34,18 @@ to your shell config (`~/.bashrc` or perhaps `~/.bash_profile`), you can emulate
             return 1
         else
             local new_pwd=$(echo ${PWD} | sed "s/${1}/${2}/")
-            echo ${new_pwd} && builtin cd ${new_pwd}
+            builtin cd ${new_pwd} && echo ${new_pwd}
         fi
     }
 
 Note that this isn't perfect. For example, it will not work with values of `to_replace` or
 `replace_with` that contain forward slashes (or anything else that will mess with the `sed`
 command). There are certainly more involved methods that would avoid the limitations seen here.
+
+#### _Update (18 Feb 2011):_
+
+[Josh Berry](http://josh-berry.blogspot.com) points out that this can be done using [BASH's built-in
+string manipulation](http://tldp.org/LDP/abs/html/string-manipulation.html) in place of `sed`. The
+relevant line in the above function can be replaced with the following:
+
+    local new_pwd=${PWD/${1}/${2}}
