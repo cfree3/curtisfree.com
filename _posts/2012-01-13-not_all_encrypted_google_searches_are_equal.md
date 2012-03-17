@@ -56,3 +56,9 @@ you can manually add a new search engine with a search string of:
     https://encrypted.google.com#q=%s
 
 If you don't already use the HTTPS-fortified Google search pages, give it a try.
+
+#### _Update (16 Mar 2012):_
+
+The EFF has published
+[a note](https://www.eff.org/deeplinks/2011/10/google-encrypts-more-searches) pointing out another
+security-related discrepancy between the two subdomains.
