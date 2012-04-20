@@ -5,7 +5,6 @@ path:   /blog/2011/12/31/vimperator_to_pentadactyl
 layout: post
 tags:   [Firefox, Pentadactyl, Vim, Vimperator]
 ---
-
 I've been using [Vimperator](http://vimperator.org/vimperator) for years. I'm a huge fan of the
 [Vim](http://www.vim.org) text editor, and Vimperator provides a Vim-like user experience in my
 favorite Web browser, [Mozilla Firefox](https://www.mozilla.org/firefox).
@@ -51,4 +50,3 @@ Importantly, both of the _specific_ points mentioned above are nonissues with Pe
 If you love Vim and have been using Vimperator, give Pentadactyl a shot (you'll need to update your
 [`.vimperatorrc`](/config/.vimperatorrc) to a compatible [`.pentadactylrc`](/config/.pentadactylrc)).
 If you're new to both, try each in turn and see which you prefer!
-

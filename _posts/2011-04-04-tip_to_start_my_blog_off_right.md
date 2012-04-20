@@ -5,7 +5,6 @@ path:   /blog/2011/04/04/tip_to_start_my_blog_off_right
 layout: post
 tags:   [Blogger, tips]
 ---
-
 Did you know that you can include (at least some) HTML in your Blogger title?
 
 Simply enter the HTML along with your normal text.
@@ -24,4 +23,3 @@ While this tip still works:
 
 1. I don't use [Blogger](http://blogger.com) anymore; I use [jekyll](http://jekyllrb.com/).
 2. The mention of links in the Blogger UI is probably no longer accurate.
-

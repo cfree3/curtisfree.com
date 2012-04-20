@@ -5,7 +5,6 @@ path:   /blog/2011/05/21/look_at_paging_in_web_based_android_market
 layout: post
 tags:   [Android, design, UI]
 ---
-
 If you have an Android phone and haven't visited the Web-based [Android Market](https://market.android.com/),
 you should check it out. Just this morning, I was glancing over pages of the
 [top free apps](https://market.android.com/details?id=apps_topselling_free) and noticed
@@ -48,4 +47,3 @@ It appears that the Market is no longer using the page selector described in thi
 the selector now offers the first 10 pages while on page `x < 10`, and pages `x - 5` through `x + 5`
 (inclusive; 11 total) thereafter until there are too few pages left to do so, at which point the
 last 11 pages are shown.
-

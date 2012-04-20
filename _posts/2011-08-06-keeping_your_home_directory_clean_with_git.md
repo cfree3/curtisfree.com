@@ -5,7 +5,6 @@ path:   /blog/2011/08/06/keeping_your_home_directory_clean_with_git
 layout: post
 tags:   [Git, tips]
 ---
-
 I recently decided to keep my important and public dotfiles in
 [a repository](http://curtisfree.com/config) on [Github](https://github.com/). In doing so,
 I comitted _most_ of the simple configuration files that I **want** to have present in my home
@@ -57,4 +56,3 @@ they contain no actual files (see why [here](https://www.google.com/search?q=git
     cfree3@CF-PC:~% git st
     # On branch master
     nothing to commit (working directory clean)
-

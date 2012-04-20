@@ -5,7 +5,6 @@ path:   /blog/2011/08/06/quickly_changing_voicemail_providers_on_android
 layout: post
 tags:   [Android, tips, Verizon]
 ---
-
 <img class="left" src="/imgs/vmswitch.png" />
 
 I have a Motorola Droid. Rather than using Verizon's own voicemail service, I choose to manage
@@ -35,4 +34,3 @@ to the other. I can then check my voicemail (`*78` on Verizon), and I will be se
 service I am using.
 
 With only slight modifications, this solution can be adapted to suit your own needs (or your own wireless carrier).
-

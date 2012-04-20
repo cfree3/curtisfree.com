@@ -21,4 +21,3 @@ the following code, the command `:amzwishlist` will do the trick:
         window.open(amazon_wishlist_url, 'amzwishlist', 'width=900,height=553');
       }
     EOJS
-

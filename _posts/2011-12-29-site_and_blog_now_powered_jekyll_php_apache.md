@@ -48,4 +48,3 @@ I'm happier with the new solution and -- hopefully -- won't be changing it anyti
 #### _Update (29 Dec 2011):_
 
 The code for my site (and blog) is now [on GitHub](https://github.com/cfree3/CurtisFree.com).
-

@@ -5,7 +5,6 @@ path:   /blog/2011/04/09/building_simple_twitter_widget_using_rss
 layout: post
 tags:   [howto, PHP, tips, Twitter]
 ---
-
 Sometimes, [Twitter's "stock" widgets](https://twitter.com/about/resources/widgets)
 aren't quite what you want.
 
@@ -97,4 +96,3 @@ about [goo.gl](http://goo.gl/) recently, and you can see a difference in UIs (ol
 Via RSS, you'll see the former -- so the regex I provided above should be sufficient.
 
 And there you have it: a simple Twitter widget that you can place anywhere on your website.
-

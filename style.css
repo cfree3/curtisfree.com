@@ -23,30 +23,9 @@ body {
     color:            #000000;
     font-family:      'DejaVu Sans', 'Bitstream Vera Sans', sans-serif;
     font-size:        small;
-    padding: 0;
-}
-
-table#layout {
-    border-collapse: collapse;
-    margin:          0;
-    padding:         0;
-    width:           100%;
-}
-
-table#layout td#main {
-    padding-left:   1.25em;
-    padding-right:  1.25em;
-    padding-top:    0;
-    padding-bottom: 0;
-    vertical-align: top;
-}
-
-table#layout td#side {
-    padding-bottom: 2.5em;
-    padding-left:   0.5em;
-    padding-right:  1em;
-    padding-top:    2.75em;
-    vertical-align: top;
+    padding:          0;
+    margin:           1em auto 1em auto;
+    max-width:        900px;
 }
 
 div.container {

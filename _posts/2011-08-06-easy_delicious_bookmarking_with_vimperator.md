@@ -5,7 +5,6 @@ path:   /blog/2011/08/06/easy_delicious_bookmarking_with_vimperator
 layout: post
 tags:   [bookmarks, Delicious, Firefox, Vimperator]
 ---
-
 If you use [Vimperator](http://vimperator.org/trac/wiki/Vimperator), add the following
 to your `~/.vimperatorrc` to enable the addition of a [Delicious](http://delicious.com/)
 bookmark for the current page simply by pressing `D`:
@@ -24,4 +23,3 @@ bookmark for the current page simply by pressing `D`:
         window.open(delicious_url, 'deliciousuiv5', 'width=550,height=550');
       }
     EOJS
-
