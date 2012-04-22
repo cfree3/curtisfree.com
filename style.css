@@ -31,6 +31,7 @@ body {
 div.container {
     background-color: #FFFFFF;
     border:           medium solid #000000;
+    border-radius:    7px;
     color:            #000000;
     overflow:         hidden;
 }
