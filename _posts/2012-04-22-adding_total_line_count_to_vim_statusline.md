@@ -5,8 +5,8 @@ path:   /blog/2012/04/22/adding_total_line_count_to_vim_statusline
 layout: post
 tags:   [Tips, Vim]
 ---
-By default, Vim displays some information about the current file/state on its command line (the last
-line in the window):
+By default, Vim displays some information about the current buffer/state on its command line (the
+last line in the window):
 <img class="seamless" src="/imgs/laststatus_1.png" />
 
 As of late, I like asking Vim to display a second line of information at all times (`:set
@@ -17,7 +17,7 @@ the "status line":
 As you can see in both screenshots, I have enabled Vim's "ruler" (`:set ruler`), which gives
 line, column, and position (the last few fields in the commandline and the status line,
 respectively). While this information can certainly be helpful, one might also wish to know a little
-more detail about his/her progress through the file.
+more detail about his/her progress through the buffer.
 
 With `'ruler'` set,
 [Vim tries to do this](https://vimhelp.appspot.com/options.txt.html#%27ruler%27); but sometimes, it
@@ -37,9 +37,9 @@ fraction:
 
     :set statusline=%<%f\ %h%m%r%=%-14.(%l/%L,%c%V%)\ %P
 
-If you expect to edit very large files, you might also wish to give Vim some additional space to the
-right for many-digit line counts. Here, we give the line/column count group 20 characters instead of
-the default 14:
+If you expect to edit very large buffers, you might also wish to give Vim some additional space to
+the right for many-digit line counts. Here, we give the line/column count group 20 characters
+instead of the default 14:
 
     :set statusline=%<%f\ %h%m%r%=%-20.(%l/%L,%c%V%)\ %P
 
