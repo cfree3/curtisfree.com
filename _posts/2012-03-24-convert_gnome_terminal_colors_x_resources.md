@@ -14,7 +14,7 @@ terminal (I prefer [`rxvt-unicode`](http://software.schmorp.de/pkg/rxvt-unicode.
 The default terminal in GNOME is, as you might have guessed,
 [GNOME Terminal](http://library.gnome.org/users/gnome-terminal/stable/).
 [Issues with VTE](http://climagic.org/bugreports/libvte-scrollback-written-to-disk.html) aside,
-GNOME terminal is great; and I still use it often on some machines. When I used Ubuntu, the default
+GNOME Terminal is great; and I still use it often on some machines. When I used Ubuntu, the default
 color scheme in GNOME Terminal was the "Linux console" theme (which, I imagine, is designed to mimic
 the default colors of a [VT](https://en.wikipedia.org/wiki/Virtual_terminal) in Linux).
 
