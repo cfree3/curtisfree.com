@@ -3,7 +3,7 @@ title:  Adding the total line count to Vim's status line
 date:   2012-04-22 12:23:00
 path:   /blog/2012/04/22/adding_total_line_count_to_vim_statusline
 layout: post
-tags:   [Tips, Vim]
+tags:   [tips, Vim]
 ---
 By default, Vim displays some information about the current buffer/state on its command line (the
 last line in the window):
