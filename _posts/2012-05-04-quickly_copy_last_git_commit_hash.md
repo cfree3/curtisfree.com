@@ -13,9 +13,7 @@ A typical portion of my Git workflow involves the following:
 
 A simple shell (ZSH, BASH, or similar) function makes the last step a little bit easier:
 
-    gitcp() {
-        git log -1 --format="%H" | xclip -in
-    }
+    gitcp() { git log -1 --format="%H" | xclip -in; }
 
 After running `gitcp`, the hash of the last commit is in X's primary selection and can easily be
 pasted into a comment box in the issue tracker.  
