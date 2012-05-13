@@ -17,7 +17,7 @@ in the same field, with a specialization in Information Security.
 -----
 
 My primary interests lie in computing – especially lower-level and back-end topics. My favorite
-areas of study include web development, databases, operating systems/computer architecture, and
+areas of study include web development, databases, operating systems, computer architecture, and
 (more specifically) Linux. 
 
 -----
