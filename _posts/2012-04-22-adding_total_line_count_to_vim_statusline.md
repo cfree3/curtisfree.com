@@ -20,14 +20,13 @@ respectively). While this information can certainly be helpful, one might also w
 more detail about his/her progress through the buffer.
 
 With `'ruler'` set,
-[Vim tries to do this](https://vimhelp.appspot.com/options.txt.html#%27ruler%27); but sometimes, it
-can be useful to have the total line count to compare with the current line number -- not just a
-relative position. Fortunately, Vim allows users to customize the contents of its status line.
+[Vim tries to do this][vim_ruler]; but sometimes, it can be useful to have the total line count to
+compare with the current line number -- not just a relative position. Fortunately, Vim allows users
+to customize the contents of its status line.
 
 The `'statusline'` option dictates what information is displayed on the status line. Since that
-option is blank by default, one must dig through
-[the documentation](https://vimhelp.appspot.com/options.txt.html#%27statusline%27) to find the true
-default. Here's the relevant snippet:
+option is blank by default, one must dig through [the documentation][vim_statusline] to find the
+true default. Here's the relevant snippet:
 
     Emulate standard status line with 'ruler' set
       :set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
@@ -48,3 +47,6 @@ This gives a status line like the following:
 
 Of course, you can add `%L` anywhere you like in your own status line. To make this setting "stick,"
 add that line (minus the leading `:`) to your `~/.vimrc`.
+
+[vim_ruler]:      https://vimhelp.appspot.com/options.txt.html#%27ruler%27
+[vim_statusline]: https://vimhelp.appspot.com/options.txt.html#%27statusline%27

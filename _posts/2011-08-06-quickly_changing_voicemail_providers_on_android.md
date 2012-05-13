@@ -8,7 +8,7 @@ tags:   [Android, tips, Verizon]
 <img class="left" src="/imgs/vmswitch.png" />
 
 I have a Motorola Droid. Rather than using Verizon's own voicemail service, I choose to manage
-my voicemail via [Google Voice](https://voice.google.com/).
+my voicemail via [Google Voice][google_voice].
 
 One day, I left a voicemail in someone else's Verizon mailbox. After listening to my message,
 my friend chose to use Verizon's "reply" feature (basically, the user replies by directly leaving
@@ -23,10 +23,9 @@ to switch between mailboxes.
 My solution: add direct-dial shortcuts to make the voicemail switch.
 
 First, I added two new contacts: _VM VZW_ (Verizon voicemail) and _VZW GV_ (Google Voice). Within
-each contact, I have a single number (of type _VSC_, for
-[Vertical Service Code](https://en.wikipedia.org/wiki/Vertical_service_code)). These numbers are
-provided by Google when one chooses to use or stop using the Google voicemail service: for
-_VM VZW_: `*71<google_voice_number>`; for _VM GV_: `*73`.
+each contact, I have a single number (of type _VSC_, for [Vertical Service Code][vsc]). These
+numbers are provided by Google when one chooses to use or stop using the Google voicemail service:
+for _VM VZW_: `*71<google_voice_number>`; for _VM GV_: `*73`.
 
 Finally, I added "direct dial" shortcuts for each number to one of my phone's home screens (like
 those in the image above). Now, with one these shortcuts, I can easily switch from one service
@@ -34,3 +33,6 @@ to the other. I can then check my voicemail (`*78` on Verizon), and I will be se
 service I am using.
 
 With only slight modifications, this solution can be adapted to suit your own needs (or your own wireless carrier).
+
+[google_voice]: https://voice.google.com/
+[vsc]:          https://en.wikipedia.org/wiki/Vertical_service_code

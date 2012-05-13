@@ -5,8 +5,8 @@ path:   /blog/2011/07/04/using_truecrypt_cli
 layout: post
 tags:   [CLI, TrueCrypt]
 ---
-[TrueCrypt](http://www.truecrypt.org/) is a great utility for hiding sensitive data -- whether in
-an encrypted disk image or on an entire encrypted partition.
+[TrueCrypt][truecrypt] is a great utility for hiding sensitive data -- whether in an encrypted disk
+image or on an entire encrypted partition.
 
 I encourage you to check out TrueCrypt, but that is not the point of this post.
 
@@ -45,3 +45,5 @@ no man page):
 
 If you begin using the CLI interface regularly, then do yourself a little favor and add an alias
 to your shell config: `alias truecrypt='truecrypt -t'`.
+
+[truecrypt]: http://www.truecrypt.org/

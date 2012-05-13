@@ -5,10 +5,9 @@ path:   /blog/2011/05/21/look_at_paging_in_web_based_android_market
 layout: post
 tags:   [Android, design, UI]
 ---
-If you have an Android phone and haven't visited the Web-based [Android Market](https://market.android.com/),
-you should check it out. Just this morning, I was glancing over pages of the
-[top free apps](https://market.android.com/details?id=apps_topselling_free) and noticed
-something about the pager (shown below the app results).
+If you have an Android phone and haven't visited the Web-based [Android Market][android_market], you
+should check it out. Just this morning, I was glancing over pages of the [top free apps][top_apps]
+and noticed something about the pager (shown below the app results).
 
 The formula is simple. If on a page `x, x <= 5`, the paging menu allows selection of the first `x * 2` pages:
 ![](/imgs/am_pg_1.png)
@@ -47,3 +46,6 @@ It appears that the Market is no longer using the page selector described in thi
 the selector now offers the first 10 pages while on page `x < 10`, and pages `x - 5` through `x + 5`
 (inclusive; 11 total) thereafter until there are too few pages left to do so, at which point the
 last 11 pages are shown.
+
+[android_market]: https://market.android.com/
+[top_apps]:       https://market.android.com/details?id=apps_topselling_free

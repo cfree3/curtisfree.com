@@ -5,9 +5,9 @@ path:   /blog/2012/02/08/quickly_changing_similar_directories_bash
 layout: post
 tags:   [BASH, CLI, Linux, tips, ZSH]
 ---
-I recently [discovered](http://www.acm.uiuc.edu/workshops/zsh/cd.html) a nifty trick in the `cd`
-builtin provided by ZSH: the ability to change from the current directory to another whose path is
-generated via simple (and, for better or worse, non-global) search-and-replace:
+I recently [discovered][zsh_cd] a nifty trick in the `cd` builtin provided by ZSH: the ability to
+change from the current directory to another whose path is generated via simple (and, for better or
+worse, non-global) search-and-replace:
 
     % pwd
     /top/left/bottom
@@ -44,8 +44,12 @@ command). There are certainly more involved methods that would avoid the limitat
 
 #### _Update (18 Feb 2011):_
 
-[Josh Berry](http://josh-berry.blogspot.com) points out that this can be done using [BASH's built-in
-string manipulation](http://tldp.org/LDP/abs/html/string-manipulation.html) in place of `sed`. The
-relevant line in the above function can be replaced with the following:
+[Josh Berry][josh_berry] points out that this can be done using [BASH's built-in string
+manipulation][bash_strings] in place of `sed`. The relevant line in the above function can be
+replaced with the following:
 
     local new_pwd=${PWD/${1}/${2}}
+
+[zsh_cd]:       http://www.acm.uiuc.edu/workshops/zsh/cd.html
+[josh_berry]:   http://josh-berry.blogspot.com
+[bash_strings]: http://tldp.org/LDP/abs/html/string-manipulation.html

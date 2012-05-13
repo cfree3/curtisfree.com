@@ -18,9 +18,12 @@ A simple shell (ZSH, BASH, or similar) function makes the last step a little bit
 After running `gitcp`, the hash of the last commit is in X's primary selection and can easily be
 pasted into a comment box in the issue tracker.  
 
-Depending on your preferences, you can [instruct `xclip`](http://linux.die.net/man/1/xclip) to copy
-into a different X "selection" -- or you can even use
-[Autocutsel](http://www.nongnu.org/autocutsel/) to sync your X selections.
+Depending on your preferences, you can [instruct `xclip`][xclip] to copy into a different X
+"selection" -- or you can even use [Autocutsel][autocutsel] to sync your X selections.
 
-Not using X11? There are [`xclip` alternatives](http://stackoverflow.com/a/750466) for OS X and
-Windows, so you can spin up your own helper utility.
+Not using X11? There are [`xclip` alternatives][xclip_alt] for OS X and Windows, so you can spin up
+your own helper utility.
+
+[xclip]:      http://linux.die.net/man/1/xclip
+[autocutsel]: http://www.nongnu.org/autocutsel/
+[xclip_alt]:  http://stackoverflow.com/a/750466

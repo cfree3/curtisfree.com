@@ -6,16 +6,16 @@ layout: post
 tags:   [Google, HTTPS, search, tips]
 ---
 Google offers two separate encrypted (i.e., via HTTPS) search pages:
-[`https://encrypted.google.com`](https://encrypted.google.com) (which has been established for some
-time) and [`https://www.google.com`](https://www.google.com) (a more recent development). The former
-has generally lagged behind the standard Google search page in terms of features;
-`https://www.google.com` looks more like the regular Google search page.
+[`https://encrypted.google.com`][google_encrypted] (which has been established for some time) and
+[`https://www.google.com`][google_www] (a more recent development). The former has generally lagged
+behind the standard Google search page in terms of features; `https://www.google.com` looks more
+like the regular Google search page.
 
 My personal motivation for preferring Google's HTTPS variants is not to protect my search terms:
 rather, I am concerned with the cookie information being passed between my browser and Google's
 servers. While I do not often (okay, _ever_) use "open Wi-Fi," failure to use an encrypted
 connection means that there is increased potential for a session hijack (as highlighted by the
-widely-publicized [Firesheep](http://codebutler.com/firesheep)).
+widely-publicized [Firesheep][firesheep]).
 
 <div class="imgs">
   <a href="/imgs/g_https_encrypted.png"><img src="/imgs/g_https_encrypted.png" width="250" height="174" /></a><a href="/imgs/g_https_www.png"><img src="/imgs/g_https_www.png" width="250" height="174" /></a>
@@ -49,9 +49,9 @@ While it is _unlikely_ that your session will be hijacked simply by following on
 redirections, note that _any cookie information_ related to your authenticated session that is sent
 across the Internet unencrypted carries some potential for misuse if it is intercepted.
 
-Users of the [EFF](https://www.eff.org/)'s [HTTPS Everywhere](https://www.eff.org/https-everywhere)
-Firefox extension are probably already using `https://encrypted.google.com`. If you're using Chrome,
-you can manually add a new search engine with a search string of:
+Users of the [EFF][eff]'s [HTTPS Everywhere][https_everywhere] Firefox extension are probably
+already using `https://encrypted.google.com`. If you're using Chrome, you can manually add a new
+search engine with a search string of:
 
     https://encrypted.google.com#q=%s
 
@@ -59,6 +59,12 @@ If you don't already use the HTTPS-fortified Google search pages, give it a try.
 
 #### _Update (16 Mar 2012):_
 
-The EFF has published
-[a note](https://www.eff.org/deeplinks/2011/10/google-encrypts-more-searches) pointing out another
-security-related discrepancy between the two subdomains.
+The EFF has published [a note][eff_note] pointing out another security-related discrepancy between
+the two subdomains.
+
+[google_encrypted]: https://encrypted.google.com
+[google_www]:       https://www.google.com
+[firesheep]:        http://codebutler.com/firesheep
+[eff]:              https://www.eff.org/
+[https_everywhere]: https://www.eff.org/https-everywhere
+[eff_note]:         https://www.eff.org/deeplinks/2011/10/google-encrypts-more-searches

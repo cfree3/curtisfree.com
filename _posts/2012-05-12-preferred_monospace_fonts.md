@@ -7,7 +7,7 @@ tags:   [CLI, fonts, programming, terminals ]
 ---
 As a programmer and command-line enthusiast, I spend a lot of time looking at monospace fonts. For
 many years, I enjoyed using what has been for years a popular default:
-[Bitstream Vera](https://en.wikipedia.org/wiki/Bitstream_Vera) Sans Mono.
+[Bitstream Vera][bitstream] Sans Mono.
 
 A few months ago, I spent a great deal of time trying out different monospace fonts. Here, I'll
 present a brief list of my favorites; the font specification strings and screenshots represent my
@@ -106,3 +106,5 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
   </li>
 </ol>
+
+[bitstream]: https://en.wikipedia.org/wiki/Bitstream_Vera

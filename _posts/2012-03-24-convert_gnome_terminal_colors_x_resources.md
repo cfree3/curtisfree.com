@@ -9,20 +9,18 @@ When I began using Linux regularly (nearly five years ago), I used both Ubuntu a
 Enterprise Linux (RHEL) -- both with the GNOME desktop environment.
 
 Eventually, after moving to Arch, I developed a taste for lighter-weight applications, including my
-terminal (I prefer [`rxvt-unicode`](http://software.schmorp.de/pkg/rxvt-unicode.html)).
+terminal (I prefer [`rxvt-unicode`][urxvt]).
 
-The default terminal in GNOME is, as you might have guessed,
-[GNOME Terminal](http://library.gnome.org/users/gnome-terminal/stable/).
-[Issues with VTE](http://climagic.org/bugreports/libvte-scrollback-written-to-disk.html) aside,
-GNOME Terminal is great; and I still use it often on some machines. When I used Ubuntu, the default
-color scheme in GNOME Terminal was the "Linux console" theme (which, I imagine, is designed to mimic
-the default colors of a [VT](https://en.wikipedia.org/wiki/Virtual_terminal) in Linux).
+The default terminal in GNOME is, as you might have guessed, [GNOME Terminal][gnome_terminal].
+[Issues with VTE][vte_issues] aside, GNOME Terminal is great; and I still use it often on some
+machines. When I used Ubuntu, the default color scheme in GNOME Terminal was the "Linux console"
+theme (which, I imagine, is designed to mimic the default colors of a [VT][vt] in Linux).
 
 When I began using a terminal configured via X resources
-(think [`.Xdefaults`](/config/.Xdefaults)), I sought to replicate this color scheme -- which I still
-use on my personal machine to this day. Fortunately, once you understand the basic relationship
-between GNOME Terminal's color preferences layout and the X resources color values, it's easy to map
-any scheme.
+(think [`.Xdefaults`][xdefaults]), I sought to replicate this color scheme -- which I still use on
+my personal machine to this day. Fortunately, once you understand the basic relationship between
+GNOME Terminal's color preferences layout and the X resources color values, it's easy to map any
+scheme.
 
 #### Colors in X resources
 
@@ -130,3 +128,9 @@ as follows:
     *foreground: black
 
 (Note that some colors can, in fact, be set by name rather than hex `#RRGGBB` values.)
+
+[urxvt]:          http://software.schmorp.de/pkg/rxvt-unicode.html
+[gnome_terminal]: http://library.gnome.org/users/gnome-terminal/stable/
+[vte_issues]:     http://climagic.org/bugreports/libvte-scrollback-written-to-disk.html
+[vt]:             https://en.wikipedia.org/wiki/Virtual_terminal
+[xdefaults]:      /config/.Xdefaults
