@@ -27,9 +27,14 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
     <p>
       Unfortunately, though it's a sans-serif font, the glyph shapes do seem to possess some
-      &quot;serif&quot; qualities and seem jagged (pixelated). I <i>do</i> use Tamsyn on my
-      virtual consoles, though, because my favorite (see below) is a derivative of Tamsyn but is
-      not yet available in a console-capable format.
+      &ldquo;serif&rdquo; qualities and seem jagged (pixelated). I'm also not a fan of the
+      &ldquo;sharp&rdquo; <i>m</i> and <i>w</i> glyphs at smaller sizes (as shown). I refer to the
+      <i>m</i> as a &ldquo;<a href="https://mail.google.com">Gmail</a> <i>m</i>.&rdquo;
+    </p>
+
+    <p>
+      I <i>do</i> use Tamsyn on my virtual consoles, as my favorite (see below) is a derivative of
+      Tamsyn but is not yet available in a console-capable format.
     </p>
 
   </li>
@@ -41,7 +46,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
     <p>
       DejaVu Sans Mono is little more than Bitstream Vera Sans Mono &ndash; so here, I'm not
-      straying far from my &quot;safe default&quot;; but I prefer DejaVu because it supports a
+      straying far from my &ldquo;safe default&rdquo;; but I prefer DejaVu because it supports a
       larger character set (even though, admittedly, I don't make use of it).
     </p>
 
@@ -82,7 +87,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
     </p>
 
     <p>
-      Terminus is &quot;tied&quot; with DejaVu as my favorite for use on some systems.
+      Terminus is &ldquo;tied&rdquo; with DejaVu as my favorite for use on some systems.
     </p>
 
   </li>
@@ -99,9 +104,9 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
     <p>
       Termsyn is probably the least popular on the list, but it's my default font in
       <code>rxvt-unicode</code> on my personal Arch machine. Using my preferred size for each font
-      (pictured here), Termsyn is a little larger than Terminus. Furthermore, the &quot;serif&quot;
-      qualities that I dislike in Tamsyn are not prevalent in Termsyn, due to its inheriting simple
-      glyph shapes from Terminus.
+      (pictured here), Termsyn is a little larger than Terminus. Furthermore, the
+      &ldquo;serif&rdquo; qualities that I dislike in Tamsyn are not prevalent in Termsyn, due to
+      its inheriting simple glyph shapes from Terminus.
     </p>
 
   </li>
