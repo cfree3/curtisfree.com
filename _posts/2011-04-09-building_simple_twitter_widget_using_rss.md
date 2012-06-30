@@ -33,7 +33,7 @@ The first step is to determine _how_ you will fetch and parse the RSS feed. I us
 [Magpie RSS][magpie] for this task. There are newer libraries for PHP available, but Magpie is
 simple and _works_.
 
-Let's take a look at my own widget (see [my homepage][home]):
+Let's take a look at my own widget <del>(see [my homepage][home])</del>:
 
     <?php
     
@@ -86,15 +86,23 @@ usernames (`@username`) and actual URLs. This can be accomplished using the patt
 lines 10-13.
 
 You might have noticed in the newer Twitter UI that some tweets contain links without the protocol
-(`http`/`https`). The RSS feed, though, is more like the old Twitter UI. You'll see full URLs. (For
+(`http`/`https`). The RSS feed, though, is more like the old Twitter UI. You'll see full URLs. For
 example, I [tweeted][googl_tweet] about [goo.gl][googl] recently, and you can see a difference in
-UIs (old and then new):
-![](/imgs/tweet_old.png)
-![](/imgs/tweet_new.png)
+UIs (old on left, new on right):
+
+<div class="imgs">
+  <img src="/imgs/tweet_old.png" /><img src="/imgs/tweet_new.png" />
+</div>
 
 Via RSS, you'll see the former -- so the regex I provided above should be sufficient.
 
 And there you have it: a simple Twitter widget that you can place anywhere on your website.
+
+#### _Update (30 Jun 2012):_
+
+I actually haven't been using this widget for a while. I had Twitter's official
+["profile widget"](https://twitter.com/about/resources/widgets/widget_profile) on the site for a
+bit, but at present I have no elements pulling from Twitter.
 
 [twitter_widgets]: https://twitter.com/about/resources/widgets
 [twitter_api]:     https://apiwiki.twitter.com/
