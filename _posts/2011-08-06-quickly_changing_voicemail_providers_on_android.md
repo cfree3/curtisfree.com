@@ -32,7 +32,8 @@ those in the image above). Now, with one these shortcuts, I can easily switch fr
 to the other. I can then check my voicemail (`*78` on Verizon), and I will be sent whichever
 service I am using.
 
-With only slight modifications, this solution can be adapted to suit your own needs (or your own wireless carrier).
+With only slight modifications, this solution can be adapted to suit your own needs (or your own
+wireless carrier).
 
 [google_voice]: https://voice.google.com/
 [vsc]:          https://en.wikipedia.org/wiki/Vertical_service_code

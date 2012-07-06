@@ -11,13 +11,14 @@ and Vimperator provides a Vim-like user experience in my favorite Web browser,
 
 That said, Vimperator 3 was a departure from the experience I had come to know and enjoy.
 
-* The command line UI was revamped. In part, this led to the removal of what I consider a nice
-  security feature: color-coding (the status bar) to indicate the security in use on the current
-  page. Though one can use [a custom script][vimperator_script] to re-implement this color-coding,
-  it causes noticable delay when changing tabs.
-
-* Certain lower-level aspects became less _Vim-like_. For example, the `'guioptions'` option (like
-  that in Vim) was replaced with `'gui'` -- which has different (and sometimes confusing) behavior.
+  * The command line UI was revamped. In part, this led to the removal of what I consider a nice
+    security feature: color-coding (the status bar) to indicate the security in use on the current
+    page. Though one can use [a custom script][vimperator_script] to re-implement this color-coding,
+    it causes noticable delay when changing tabs.
+  
+  * Certain lower-level aspects became less _Vim-like_. For example, the `'guioptions'` option (like
+    that in Vim) was replaced with `'gui'` -- which has different (and sometimes confusing)
+    behavior.
 
 Recently, a friend asked me about the browser enhancement I was using, and when researching it
 herself, she discovered my new favorite Firefox extension:
@@ -34,15 +35,15 @@ and "design" (as described in [in the Vimperator wiki][vimperator_wiki]), Pentad
 
 Importantly, both of the _specific_ points mentioned above are nonissues with Pentadactyl:
 
-* The status bar security color-coding is functional. Like Vimperator, Pentadactyl now (by default)
-  shows only a single line at the bottom of the window. Whereas Vimperator's "single line" is a
-  dual-purpose status and command line, Pentadactyl shows only the status line and reveals the
-  command line only when necessary.
-
-* Pentadactyl still uses `'guioptions'`. That said, some options diverge from what one might be
-  accustomed to with Vim. Notably, search-related options use the term `find` instead of `search`
-  (e.g., Vim's `'hlsearch'` vs. Pentadactyl's `'hlfind'`); and Vim's multiple case-related options
-  (`'ignorecase'` and `'smartcase'`) are unified into a single option (`'findcase'`).
+  * The status bar security color-coding is functional. Like Vimperator, Pentadactyl now (by
+    default) shows only a single line at the bottom of the window. Whereas Vimperator's "single
+    line" is a dual-purpose status and command line, Pentadactyl shows only the status line and
+    reveals the command line only when necessary.
+  
+  * Pentadactyl still uses `'guioptions'`. That said, some options diverge from what one might be
+    accustomed to with Vim. Notably, search-related options use the term `find` instead of `search`
+    (e.g., Vim's `'hlsearch'` vs. Pentadactyl's `'hlfind'`); and Vim's multiple case-related options
+    (`'ignorecase'` and `'smartcase'`) are unified into a single option (`'findcase'`).
 
 If you love Vim and have been using Vimperator, give Pentadactyl a shot (you'll need to update your
 [`.vimperatorrc`][vimperatorrc] to a compatible [`.pentadactylrc`][pentadactylrc]).  If you're new

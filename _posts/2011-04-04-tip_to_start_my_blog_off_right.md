@@ -21,8 +21,8 @@ will have your links).
 
 While this tip still works:
 
-1. I don't use [Blogger][blogger] anymore; I use [jekyll][jekyll].
-2. The mention of links in the Blogger UI is probably no longer accurate.
+  1. I don't use [Blogger][blogger] anymore; I use [jekyll][jekyll].
+  2. The mention of links in the Blogger UI is probably no longer accurate.
 
 [blogger]: http://blogger.com
 [jekyll]:  http://jekyllrb.com

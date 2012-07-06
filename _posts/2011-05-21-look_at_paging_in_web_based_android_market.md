@@ -9,7 +9,8 @@ If you have an Android phone and haven't visited the Web-based [Android Market][
 should check it out. Just this morning, I was glancing over pages of the [top free apps][top_apps]
 and noticed something about the pager (shown below the app results).
 
-The formula is simple. If on a page `x, x <= 5`, the paging menu allows selection of the first `x * 2` pages:
+The formula is simple. If on a page `x, x <= 5`, the paging menu allows selection of the first `x *
+2` pages:
 ![](/imgs/am_pg_1.png)
 ![](/imgs/am_pg_2.png)
 ![](/imgs/am_pg_3.png)
@@ -29,14 +30,14 @@ number of pages for selection (surrounding the current page).
 
 But what motivated Google's design? There are multiple possibilities:
 
-* *User experience.*
-  Simple: Why show the user so many pages in the menu? The further a user delves into the pages, the
-  further he/she will likely go, so show more pages as the user goes further into the results.
-
-* *Querying.*
-  Perhaps the query used on the backend examines only enough data to know that there are a certain
-  number of pages. Most users only visit the earliest pages, so why even consider the later results
-  to determine how many pages there are?
+  * *User experience.*
+    Simple: Why show the user so many pages in the menu? The further a user delves into the pages,
+    the further he/she will likely go, so show more pages as the user goes further into the results.
+  
+  * *Querying.*
+    Perhaps the query used on the backend examines only enough data to know that there are a certain
+    number of pages. Most users only visit the earliest pages, so why even consider the later
+    results to determine how many pages there are?
 
 Interesting design, Google.
 

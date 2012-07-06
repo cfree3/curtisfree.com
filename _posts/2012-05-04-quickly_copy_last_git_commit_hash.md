@@ -7,9 +7,9 @@ tags:   [Git, tips, workflow]
 ---
 A typical portion of my Git workflow involves the following:
 
-1. Local `git commit`
-2. `git push` to upstream remote
-3. Add a comment to an issue tracker that includes the new commit hash
+  1. Local `git commit`
+  2. `git push` to upstream remote
+  3. Add a comment to an issue tracker that includes the new commit hash
 
 A simple shell (ZSH, BASH, or similar) function makes the last step a little bit easier:
 
