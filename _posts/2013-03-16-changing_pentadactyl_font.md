@@ -10,7 +10,7 @@ Pentadactyl is excellent (I've posted about it [before][pentadactyl]) -- but dep
 system, the font used in its UI elements might not have optimal defaults. In particular, one might
 wish to change the monospace font face and size.
 
-### Font face
+#### Font face
 
 If you have a favorite [monospace font][monospace], then likely you'll want to use that font in
 Pentadactyl, too. While Pentadactyl's `:hi` command can be used to use different fonts in different
@@ -30,7 +30,7 @@ preferred monospace font.
 Restart Firefox, and (assuming no other overrides) Pentadactyl will begin using the font you
 specified.
 
-### Font size
+#### Font size
 
 Changing the default monspace font size in Firefox settings does not seem to effect that used by
 Pentadactyl; therefore, we'll turn to the `FontFixed` style group, which applies to some -- but not
