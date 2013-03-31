@@ -41,7 +41,7 @@ But what motivated Google's design? There are multiple possibilities:
 
 Interesting design, Google.
 
-#### Update: _Update (03 Jul 2011):_
+#### _Update (03 Jul 2011):_
 
 It appears that the Market is no longer using the page selector described in this post. Instead,
 the selector now offers the first 10 pages while on page `x < 10`, and pages `x - 5` through `x + 5`
