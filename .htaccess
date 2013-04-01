@@ -38,6 +38,10 @@ RewriteRule ^config/(.*)$ https://raw.github.com/cfree3/config/master/$1 [R=303,
   RewriteCond %{REQUEST_URI} ^/projects/clipw$
   RewriteRule ^(.*)$ https://github.com/cfree3/clipw [R=303,L]
 
+  # /projects/draw-a-blank
+  RewriteCond %{REQUEST_URI} ^/projects/draw-a-blank$
+  RewriteRule ^(.*)$ https://github.com/cfree3/draw-a-blank [R=303,L]
+
   # /projects/userscripts
   RewriteCond %{REQUEST_URI} ^/projects/userscripts$
   RewriteRule ^(.*)$ https://github.com/cfree3/userscripts [R=303,L]
