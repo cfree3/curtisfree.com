@@ -3,4 +3,4 @@
 url:       http://curtisfree.com
 markdown:  kramdown
 permalink: /content/blog/:year/:month/:day/:title.html
-exclude:   README.md
+exclude:   [README.md]
