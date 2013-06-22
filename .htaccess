@@ -28,6 +28,10 @@ RewriteRule ^(.*)$ http://curtisfree.com/$1    [R=301,L]
 RewriteCond %{REQUEST_URI} ^/config/.+$
 RewriteRule ^config/(.*)$ https://raw.github.com/cfree3/config/master/$1 [R=303,L]
 
+# Easy access to DB entries.
+RewriteCond %{REQUEST_URI} ^/db/.+$
+RewriteRule ^db/(.*)$ https://github.com/cfree3/CurtisFree.com/wiki/$1 [R=303,L]
+
 # Redirects (as rewrites to prevent further rewriting).
 
   # /config
