@@ -12,6 +12,10 @@ layout: default
 
 Simple Chrom{e,ium} extension that replaces the default New Tab page with a blank one.
 
+### [Got][project_got]
+
+Simple, configurable Git wrapper.
+
 ### [Userscripts][project_userscripts]
 
 A collection of JavaScript [userscripts][userscripts] that can be used with the
@@ -20,6 +24,7 @@ A collection of JavaScript [userscripts][userscripts] that can be used with the
 
 [project_clipw]:        /projects/clipw
 [project_draw-a-blank]: /projects/draw-a-blank
+[project_got]:          /projects/got
 [project_userscripts]:  /projects/userscripts
 [userscripts]:          https://userscripts.org
 [greasemonkey]:         http://www.greasespot.net

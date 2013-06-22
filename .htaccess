@@ -50,6 +50,10 @@ RewriteRule ^db/(.*)$ https://github.com/cfree3/CurtisFree.com/wiki/$1 [R=303,L]
   RewriteCond %{REQUEST_URI} ^/projects/draw-a-blank$
   RewriteRule ^(.*)$ https://github.com/cfree3/draw-a-blank [R=303,L]
 
+  # /projects/got
+  RewriteCond %{REQUEST_URI} ^/projects/got$
+  RewriteRule ^(.*)$ https://github.com/cfree3/got [R=303,L]
+
   # /projects/userscripts
   RewriteCond %{REQUEST_URI} ^/projects/userscripts$
   RewriteRule ^(.*)$ https://github.com/cfree3/userscripts [R=303,L]
