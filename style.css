@@ -99,6 +99,11 @@ div.container#pgbody {
     padding-right: 1em;
 }
 
+
+div.content a {
+    font-weight: bold;
+}
+
 div.container#lower {
     margin-bottom: 1.25em;
     margin-top:    0.5em;
@@ -169,10 +174,6 @@ img.left {
 
 img.right {
     float: right;
-}
-
-.post_body a {
-    font-weight: bold;
 }
 
 .post_body div.imgs {
