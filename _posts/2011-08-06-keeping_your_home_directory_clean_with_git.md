@@ -26,7 +26,7 @@ Ensure that you do not list any files you do **not** want at all (files like the
 Now, barring any changes you have made to files that _are_ in your repo, `git status` can be used
 to reveal a quick list of any unwanted files that have accumulated:
 
-    cfree3@CF-PC:~% git st # 'st' is an alias I have set for 'status'
+    % git st # 'st' is an alias I have set for 'status'
     # On branch master
     # Untracked files:
     #   (use "git add <file>..." to include in what will be committed)
@@ -43,15 +43,15 @@ to reveal a quick list of any unwanted files that have accumulated:
 One caveat: Git will _not_ "alert" you to unwanted directories (including nested directories) if
 they contain no actual files (see why [here][google_empty_dirs]):
 
-    cfree3@CF-PC:~% grep ".adobe" .git/info/exclude
-    cfree3@CF-PC:~% tree .adobe
+    % grep ".adobe" .git/info/exclude
+    % tree .adobe
     .adobe
     `-- Flash_Player
         `-- AssetCache
             `-- 5885UGDY
     
     3 directories, 0 files
-    cfree3@CF-PC:~% git st
+    % git st
     # On branch master
     nothing to commit (working directory clean)
 

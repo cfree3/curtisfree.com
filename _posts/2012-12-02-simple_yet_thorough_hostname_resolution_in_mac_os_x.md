@@ -16,11 +16,11 @@ function in `~/.zshrc` to make this simple:
 
 Note that this works for both DNS-resolvable hosts _and_ those you've defined:
 
-<pre><code>cfree3@egon:~% ip curtisfree.com
+<pre><code>% ip curtisfree.com
 name: curtisfree.com
 ip_address: 66.40.52.181
 
-cfree3@egon:~% ip post-it # home server, named in /etc/hosts
+% ip post-it # home server, named in /etc/hosts
 name: post-it
 ip_address: 192.168.0.2
 
