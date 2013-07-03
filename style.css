@@ -18,11 +18,14 @@ layout: nil
  * Inspired by claimID (https://claimid.com).
  */
 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600);
+
 body {
     background-color: #6B8E23;
     color:            #000000;
-    font-family:      'DejaVu Sans', 'Bitstream Vera Sans', sans-serif;
-    font-size:        small;
+    font-family:      'PT Sans', 'DejaVu Sans', 'Bitstream Vera Sans', sans-serif;
+    font-size:        medium;
     padding:          0;
     margin:           1em auto 1em auto;
     max-width:        900px;
@@ -40,7 +43,7 @@ div.container#masthead {
     margin-bottom: 0.5em;
     margin-top:    1.25em;
     padding-left:  1.5em;
-    padding-right: 3em;
+    padding-right: 1.5em;
     text-align:    center;
 }
 
@@ -168,6 +171,10 @@ img.right {
     float: right;
 }
 
+.post_body a {
+    font-weight: bold;
+}
+
 .post_body div.imgs {
     text-align: center;
 }
@@ -237,8 +244,14 @@ h4.post_meta {
 }
 
 code {
-    font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
-    font-size:    small;
+    font-family: 'Source Code Pro', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size:    13px;
+    font-weight:  500;
+}
+
+p code {
+    font-size:   14px;
+    font-weight: 600;
 }
 
 div.post_body h4 {
