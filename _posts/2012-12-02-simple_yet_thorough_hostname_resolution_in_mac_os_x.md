@@ -18,13 +18,11 @@ Note that this works for both DNS-resolvable hosts _and_ those you've defined:
 
 <pre><code>% ip curtisfree.com
 name: curtisfree.com
-ip_address: 66.40.52.181
+ip_address: 66.40.52.181</code></pre>
 
-% ip post-it # home server, named in /etc/hosts
+<pre><code>% ip post-it # home server, named in /etc/hosts
 name: post-it
-ip_address: 192.168.0.2
-
-</code></pre>
+ip_address: 192.168.0.2</code></pre>
 
 This function will work in both ZSH and BASH, and it should be adaptable to your favorite shell.
 
