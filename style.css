@@ -185,14 +185,6 @@ img.right {
     margin:  0 1em 0 1em !important;
 }
 
-.post_body img.left {
-    margin: 1em 1.5em 1em 1em !important;
-}
-
-.post_body img.right {
-    margin: 1em 1em 1em 1.5em !important;
-}
-
 img.seamless {
     border: none !important;
 }
@@ -224,6 +216,14 @@ pre {
     margin-left:   auto;
     margin-right:  auto;
     margin-top:    1em;
+}
+
+.content img.left {
+    margin: 1em 1.5em 1em 1em !important;
+}
+
+.content img.right {
+    margin: 1em 1em 1em 1.5em !important;
 }
 
 .content table {
