@@ -13,32 +13,25 @@ I have a B.S. in Computer Science from the [Georgia Institute of Technology][gat
 _Platforms_ and _Information Internetworks_. I am currently working toward an M.S. in the same
 field, with a specialization in Information Security.
 
------
+My primary interest areas are web development, databases, operating systems, and computer
+architecture.
 
-My primary interests lie in computing – especially lower-level and back-end topics. My favorite
-areas of study include web development, databases, operating systems, computer architecture, and
-(more specifically) Linux. 
-
------
-
-Around the Internet, I sometimes use the alias **ssjlegendx** (a name that has stuck around since
-my _DragonBall Z_ days).
+Around the Internet, I sometimes use the alias **ssjlegendx** (a name with roots in my _DragonBall
+Z_ days but that I've continued to use).
 
 ### About CurtisFree.com
 
-_CurtisFree.com_ -- as you might have supposed -- is my little part of the Web.
+_CurtisFree.com_ is my little part of the Web.
 
 The avatar seen on this site (and that I use in many places) was created with an online avatar
 generator like [the one found on I Am Bored][avatar_generator].
 
-The simple design of this website – which has "evolved" slightly over time – was originally based
-on [LiveJournal][livejournal]'s "Generator" theme.
-
-The color scheme (particularly the green background) is inspired by that of [claimID][claimid] (and
-possibly other websites).
+The simple design of this website was originally based on [LiveJournal][livejournal]'s "Generator"
+theme. The color scheme (particularly the green background) is inspired by that of
+[claimID][claimid] (and possibly other websites).
 
 Navigation menu icons are part of the free and excellent "Silk" icon set from
-[famfamfam.com][silk].
+[famfamfam.com][silk]. Fonts are from [Google Web Fonts][fonts].
 
 [curtisandrebecca]: http://curtisandrebecca.com
 [gatech]:           http://www.gatech.edu
@@ -46,3 +39,4 @@ Navigation menu icons are part of the free and excellent "Silk" icon set from
 [livejournal]:      http://www.livejournal.com
 [claimid]:          https://claimid.com
 [silk]:             http://www.famfamfam.com/lab/icons/silk/
+[fonts]:            https://www.google.com/fonts/
