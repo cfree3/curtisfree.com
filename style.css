@@ -209,6 +209,20 @@ pre {
     padding:          0.5em;
 }
 
+blockquote {
+    background-color: #F8F8F8;
+    border-left:      medium solid #000000;
+    font-size:        medium;
+    margin-left:      3.5em;
+    margin-right:     1.5em;
+}
+
+blockquote p {
+    padding:      0.5em;
+    margin-left:  0.5em;
+    margin-right: 0.5em;
+}
+
 .content img {
     border:        medium solid #000000;
     display:       block;
