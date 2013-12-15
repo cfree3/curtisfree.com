@@ -42,6 +42,10 @@ RewriteRule ^db/(.*)$ https://github.com/cfree3/CurtisFree.com/wiki/$1 [R=303,L]
   RewriteCond %{REQUEST_URI} ^/db$
   RewriteRule ^(.*)$ https://github.com/cfree3/CurtisFree.com/wiki [R=303,L]
 
+  # /projects/brew-notify
+  RewriteCond %{REQUEST_URI} ^/projects/brew-notify$
+  RewriteRule ^(.*)$ https://github.com/cfree3/brew-notify [R=303,L]
+
   # /projects/clipw
   RewriteCond %{REQUEST_URI} ^/projects/clipw$
   RewriteRule ^(.*)$ https://github.com/cfree3/clipw [R=303,L]
