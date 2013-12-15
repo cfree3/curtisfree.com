@@ -4,7 +4,7 @@ layout: nil
 /*
  * CurtisFree.com
  * style.css
- * Copyright 2007-{{ site.time | date:'%Y' }} Curtis Free. All rights reserved.
+ * Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
  */
 
 /*
@@ -278,6 +278,7 @@ div.content {
 }
 
 div#footer {
+    font-size:  small;
     text-align: center;
     width:      100%;
 }
