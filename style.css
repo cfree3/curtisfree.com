@@ -18,13 +18,13 @@ layout: nil
  * Inspired by claimID (https://claimid.com).
  */
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600);
 
 body {
     background-color: #6B8E23;
     color:            #000000;
-    font-family:      'PT Sans', 'DejaVu Sans', 'Bitstream Vera Sans', sans-serif;
+    font-family:      'Open Sans', 'DejaVu Sans', 'Bitstream Vera Sans', sans-serif;
     font-size:        medium;
     padding:          0;
     margin:           1em auto 1em auto;
@@ -260,7 +260,6 @@ h4.post_meta {
 
 code {
     font-family: 'Source Code Pro', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
-    font-size:    13px;
     font-weight:  500;
 }
 
