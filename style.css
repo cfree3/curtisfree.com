@@ -176,6 +176,10 @@ img.right {
     float: right;
 }
 
+.post_body img {
+    max-width: 90%;
+}
+
 .post_body div.imgs {
     text-align: center;
 }
