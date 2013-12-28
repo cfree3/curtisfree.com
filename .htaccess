@@ -72,7 +72,7 @@ RewriteRule ^db/(.*)$ https://github.com/cfree3/CurtisFree.com/wiki/$1 [R=303,L]
 
   # /wishlist
   RewriteCond %{REQUEST_URI} ^/wishlist$
-  RewriteRule ^(.*)$ https://www.amazon.com/registry/wishlist/3VSGTZRPLX045?sort=priority [R=303,L]
+  RewriteRule ^(.*)$ https://smile.amazon.com/registry/wishlist/3VSGTZRPLX045?sort=priority [R=303,L]
 
 # Allow certain passthroughs; all other requests go through index.php.
 RewriteCond %{REQUEST_URI} !^/(go.php)|(imgs(/.*)?)|(style.css)|(favicon.ico)|(robots.txt)$
