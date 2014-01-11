@@ -92,6 +92,10 @@ div.container#nav a:hover {
     color:            #6B8E23 !important;
 }
 
+div.container#nav a.current {
+    font-weight: bold;
+}
+
 div.container#pgbody {
     margin-bottom: 0.5em;
     margin-top:    0.5em;
