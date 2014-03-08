@@ -1,27 +1,27 @@
-            </h1>
-          </td>
-          <td id="tagline">
-            <h3>
-              I'm a geek, and I have
-              <a class="hidden" href="http://curtisandrebecca.com">the most wonderful wife in the anywhere</a>.
-            </h3>
-          </td>
-        </tr>
-      </table>
+    <div id="header">
 
-    </div>
-
-    <div class="container" id="nav">
       <table>
         <tr>
-          <td><a class="{% if page.path == '/about' %}current{% endif %}" href="/about"><img alt="about" src="/imgs/icons/about.png" />About</a></td>
-          <td><a class="{% if page.path == '/blog' %}current{% endif %}" href="/blog"><img alt="blog" src="/imgs/icons/blog.png" />Blog</a></td>
-          <td><a class="" href="/config"><img alt="config" src="/imgs/icons/config.png" />Config</a></td>
-          <td><a class="" href="/db"><img alt="db" src="/imgs/icons/db.png" />DB</a></td>
-          <td><a class="{% if page.path == '/projects' %}current{% endif %}" href="/projects"><img alt="projects" src="/imgs/icons/projects.png" />Projects</a></td>
-          <td><a class="" href="/scripts"><img alt="scripts" src="/imgs/icons/scripts.png" />Scripts</a></td>
-          <td><a class="{% if page.path == '/stuff' %}current{% endif %}" href="/stuff"><img alt="stuff" src="/imgs/icons/stuff.png" />Stuff</a></td>
-          <td><a class="" href="/wishlist"><img alt="wishlist" src="/imgs/icons/wishlist.png" />Wishlist</a></td>
+          <td class="header">
+            <h1 id="blog_title" >
+              <a id="main_link" href="/">CurtisFree.com</a>
+              {% if page.layout == 'blog' or page.layout == 'post' %}
+              <a id="blog_link" href="/blog">Blog</a>
+              {% endif %}
+            </h1>
+          </td>
+          <td><a class="{% if page.path == '/about' %}current{% endif %}" href="/about">About</a></td>
+          <td><a class="{% if page.path == '/blog' %}current{% endif %}" href="/blog">Blog</a></td>
+          <td><a class="" href="/config">Config</a></td>
+          <td><a class="" href="/db">DB</a></td>
+          <td><a class="{% if page.path == '/projects' %}current{% endif %}" href="/projects">Projects</a></td>
+          <td><a class="" href="/scripts">Scripts</a></td>
+          <td><a class="{% if page.path == '/stuff' %}current{% endif %}" href="/stuff">Stuff</a></td>
+          <td><a class="" href="/wishlist">Wishlist</a></td>
+          <td id="tagline">
+            I'm a geek, and I have
+            <a class="hidden" href="http://curtisandrebecca.com">the most wonderful wife in the anywhere</a>.
+          </td>
         </tr>
       </table>
     </div>
