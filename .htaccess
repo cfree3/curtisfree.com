@@ -25,7 +25,7 @@ RewriteRule ^(.*)$ http://curtisfree.com/$1    [R=301,L]
 
 # Easy access to config files.
 RewriteCond %{REQUEST_URI} ^/config/.+$
-RewriteRule ^config/(.*)$ https://raw.github.com/cfree3/config/master/$1 [R=303,L]
+RewriteRule ^config/(.*)$ https://raw.githubusercontent.com/cfree3/config/master/$1 [R=303,L]
 
 # Easy access to DB entries.
 RewriteCond %{REQUEST_URI} ^/db/.+$
