@@ -1,6 +1,5 @@
-# CurtisFree.com
 # .htaccess
-# Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+## Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 # References
 # ----------
@@ -20,7 +19,7 @@ RewriteEngine on
 # Never ever use physical file locations in rewrites.
 RewriteBase /
 
-# Remove subdomains (including "www").
+# Remove subdomains (including `www`).
 RewriteCond %{HTTP_HOST} ^.*\.curtisfree\.com$ [NC]
 RewriteRule ^(.*)$ http://curtisfree.com/$1    [R=301,L]
 
@@ -74,7 +73,7 @@ RewriteRule ^db/(.*)$ https://github.com/cfree3/CurtisFree.com/wiki/$1 [R=303,L]
   RewriteCond %{REQUEST_URI} ^/wishlist$
   RewriteRule ^(.*)$ https://smile.amazon.com/registry/wishlist/3VSGTZRPLX045?sort=priority [R=303,L]
 
-# Allow certain passthroughs; all other requests go through index.php.
+# Allow certain passthroughs; all other requests go through `go.php`.
 RewriteCond %{REQUEST_URI} !^/(go.php)|(imgs(/.*)?)|(style.css)|(favicon.ico)|(robots.txt)$
 RewriteRule ^(.*)$ go.php [L]
 

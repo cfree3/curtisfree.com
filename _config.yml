@@ -1,5 +1,5 @@
 # _config.yml
-# Jekyll configuration for CurtisFree.com site & blog.
+## Jekyll configuration for CurtisFree.com site & blog.
 url:       http://curtisfree.com
 markdown:  kramdown
 permalink: /content/blog/:year/:month/:day/:title.html
