@@ -1,7 +1,6 @@
 ---
 title:  My preferred monospace fonts
 date:   2012-05-13 01:30:00
-path:   /blog/2012/05/12/preferred_monospace_fonts
 layout: post
 tags:   [CLI, fonts, programming, terminals ]
 ---

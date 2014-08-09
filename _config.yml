@@ -1,6 +1,15 @@
 # _config.yml
-## Jekyll configuration for CurtisFree.com site & blog.
-url:       http://curtisfree.com
-markdown:  kramdown
-permalink: /content/blog/:year/:month/:day/:title.html
-exclude:   [README.md]
+## Jekyll configuration for CurtisFree.com.
+name:                    "CurtisFree.com"
+author:                  "Curtis Free"
+email:                   cf@curtisfree.com
+description:             "I'm a geek, and I have the most wonderful wife in the anywhere."
+url:                     http://curtisfree.com
+github-url:              https://github.com/cfree3
+wishlist-url:            https://smile.amazon.com/registry/wishlist/3VSGTZRPLX045?sort=priority
+google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
+openid-provider:         https://www.google.com/accounts/o8/ud?source=profiles
+openid-local-id:         https://www.google.com/profiles/curtis.free
+markdown:                kramdown
+permalink:               /blog/:year/:month/:day/:title/
+exclude:                 [README.md]

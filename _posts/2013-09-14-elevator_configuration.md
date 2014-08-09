@@ -1,11 +1,9 @@
 ---
 title:  Elevator configuration
 date:   2013-09-14 15:31:00
-path:   /blog/2013/09/14/elevator_configuration
 layout: post
 tags:   [Arch, Mac, UI]
 ---
-
 Perhaps it's a waste of time, but for years I have enjoyed exploring system and window manager
 configuration. Getting window management _just right_. Making everything _look nice_. Getting every
 key on the keyboard to do _exactly what I want_. And I think that there are two ways to do this.

@@ -1,7 +1,6 @@
 ---
 title:  Simple yet thorough hostname resolution in Mac OS X
 date:   2012-12-02 21:31:00
-path:   /blog/2012/12/02/simple_yet_thorough_hostname_resolution_in_mac_os_x
 layout: post
 tags:   [CLI, Mac, networking]
 ---

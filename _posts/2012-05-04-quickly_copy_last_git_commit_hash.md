@@ -1,7 +1,6 @@
 ---
 title:  Quickly copy last Git commit hash
 date:   2012-05-05 01:34:00
-path:   /blog/2012/05/04/quickly_copy_last_git_commit_hash
 layout: post
 tags:   [Git, tips, workflow]
 ---

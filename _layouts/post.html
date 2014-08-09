@@ -15,14 +15,10 @@
         <h4 class="post_meta">
           [ {{ page.date | date:'%d %b %Y @ %I:%M %p' }} ]
           {% if page.tags.size > 0 %}
-          [
-            {% for tag in page.tags %}
-              {{ tag }}{% if forloop.last == false %}, {% endif %}
-            {% endfor %}
-          ]
+          [ {{ page.tags | join:' | ' }} ]
           {% endif %}
-          [ <a href="{{ page.path }}">Permalink</a> ]
-          [ <a href="mailto:cf@curtisfree.com?subject=Blog ({{ page.path | remove_first:'/blog/' }})">?</a> ]
+          [ <a href="{{ site.url }}{{ page.url }}">Permalink</a> ]
+          [ <a href="mailto:{{ site.email }}?subject=Blog ({{ page.id | remove_first:'/blog/' }})">?</a> ]
         </h4>
 
       </div>

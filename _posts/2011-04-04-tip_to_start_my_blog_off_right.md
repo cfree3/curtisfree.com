@@ -1,7 +1,6 @@
 ---
 title:  A tip to start my blog off right...
 date:   2011-04-05 03:35:00
-path:   /blog/2011/04/04/tip_to_start_my_blog_off_right
 layout: post
 tags:   [Blogger, tips]
 ---

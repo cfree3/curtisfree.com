@@ -77,13 +77,13 @@ body {
     font-style: italic;
 }
 
-#footer {
+footer {
     font-size:  small;
     padding:    0.25em;
     text-align: center;
 }
 
-#footer a {
+footer a {
     background-color: #6B8E23;
     color:            #000000;
     font-weight:      bold;

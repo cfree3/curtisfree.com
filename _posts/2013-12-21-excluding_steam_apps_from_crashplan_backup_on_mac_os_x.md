@@ -1,11 +1,9 @@
 ---
 title:  Excluding Steam apps from CrashPlan backup on Mac OS X
 date:   2013-12-21 21:21:00
-path:   /blog/2013/12/21/excluding_steam_apps_from_crashplan_backup_on_mac_os_x
 layout: post
 tags:   [CrashPlan, Mac, Steam]
 ---
-
 I'm not much of a gamer, but having "purchased" [Portal][portal] for free years ago, I finally
 installed [Steam][steam] on my Mac so that I could (perhaps) try it out.
 

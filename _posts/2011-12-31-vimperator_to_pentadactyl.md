@@ -1,7 +1,6 @@
 ---
 title:  I've shifted from Vimperator to Pentadactyl
 date:   2011-12-31 22:51:00
-path:   /blog/2011/12/31/vimperator_to_pentadactyl
 layout: post
 tags:   [Firefox, Pentadactyl, Vim, Vimperator]
 ---

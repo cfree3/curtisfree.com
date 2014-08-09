@@ -1,7 +1,6 @@
 ---
 title:  Not all encrypted Google searches are equal
 date:   2012-01-13 15:33:00
-path:   /blog/2012/01/13/not_all_encrypted_google_searches_are_equal
 layout: post
 tags:   [Google, HTTPS, search, tips]
 ---

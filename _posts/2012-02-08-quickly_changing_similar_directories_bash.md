@@ -1,7 +1,6 @@
 ---
 title:  Quickly changing between similar directories in BASH
 date:   2012-02-09 01:03:00
-path:   /blog/2012/02/08/quickly_changing_similar_directories_bash
 layout: post
 tags:   [BASH, CLI, Linux, tips, ZSH]
 ---

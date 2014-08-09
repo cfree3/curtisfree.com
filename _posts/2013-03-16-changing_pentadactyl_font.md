@@ -1,11 +1,9 @@
 ---
 title:  Changing the font in Pentadactyl
 date:   2013-03-16 20:54:00
-path:   /blog/2013/03/16/changing_pentadactyl_font
 layout: post
 tags:   [Firefox, Pentadactyl]
 ---
-
 Pentadactyl is excellent (I've posted about it [before][pentadactyl]) -- but depending on your
 system, the font used in its UI elements might not have optimal defaults. In particular, one might
 wish to change the monospace font face and size.

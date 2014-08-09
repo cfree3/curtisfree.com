@@ -1,6 +1,5 @@
 ---
 title:  CurtisFree.com &rarr; About
-path:   /about
 layout: default
 ---
 ### About Me

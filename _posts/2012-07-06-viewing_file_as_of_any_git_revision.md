@@ -1,7 +1,6 @@
 ---
 title:  Viewing a file as of any Git revision
 date:   2012-07-06 15:13:00
-path:   /blog/2012/07/06/viewing_file_as_of_any_git_revision
 layout: post
 tags:   [ Git, tips, Vim ]
 ---

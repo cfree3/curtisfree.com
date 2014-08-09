@@ -1,6 +1,5 @@
 ---
 title:  CurtisFree.com &rarr; Stuff
-path:   /stuff
 layout: default
 ---
 ### Friends around the Web:
