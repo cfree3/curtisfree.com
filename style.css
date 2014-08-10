@@ -129,6 +129,9 @@ a.hidden:hover, #blog_title a#main_link:hover {
     color: #6B8E23 !important;
 }
 
+ul {
+    list-style-type: square;
+}
 
 #blog_title a#blog_link {
     color: #6B8E23 !important;
