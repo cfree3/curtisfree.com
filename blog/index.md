@@ -1,6 +1,6 @@
 ---
 title:  CurtisFree.com Blog
-layout: default
+layout: blog
 ---
 ### Blogline ([RSS](/blog/feed/)):
 <table class="post_list">

@@ -1,0 +1,12 @@
+{% include doctype.html %}
+    <title>{{ page.title }}</title>
+{% include to_canonical.html %}
+{% include canonical.html %}
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/blog/feed/" />
+
+{% include to_content.html %}
+      <div class="content">
+        {{ content }}
+      </div>
+{% include from_content.html %}
