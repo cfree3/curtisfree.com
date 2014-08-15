@@ -1,9 +1,8 @@
 {% include doctype.html %}
     <title>CurtisFree.com Blog &rarr; {{ page.title }}</title>
-{% include to_canon.html %}
-{% include canon.html %}
-{% include to_slink.html %}
-{% include to_pgbody.html %}
+{% include to_canonical.html %}
+{% include canonical.html %}
+{% include to_content.html %}
       <div class="content">
 
         <h3 class="post_title">{{ page.title }}</h3>
@@ -22,5 +21,4 @@
         </h4>
 
       </div>
-
-{% include from_pgbody.html %}
+{% include from_content.html %}
