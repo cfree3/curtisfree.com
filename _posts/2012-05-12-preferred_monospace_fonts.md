@@ -1,6 +1,5 @@
 ---
 title:  My preferred monospace fonts
-date:   2012-05-13 01:30:00
 layout: post
 tags:   [CLI, fonts, programming, terminals ]
 ---

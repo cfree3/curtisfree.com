@@ -1,6 +1,5 @@
 ---
 title:  Binary "Priority Inbox" in Microsoft Outlook
-date:   2012-07-06 15:25:00
 layout: post
 tags:   [ Gmail, Outlook, tips ]
 ---

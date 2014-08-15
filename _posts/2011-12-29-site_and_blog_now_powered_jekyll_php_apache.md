@@ -1,6 +1,5 @@
 ---
 title:  Site and blog now powered by Jekyll + PHP + Apache
-date:   2011-12-29 22:29:00
 layout: post
 tags:   [Apache, blog, Jekyll, PHP, site]
 ---

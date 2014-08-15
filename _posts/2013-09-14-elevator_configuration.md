@@ -1,6 +1,5 @@
 ---
 title:  Elevator configuration
-date:   2013-09-14 15:31:00
 layout: post
 tags:   [Arch, Mac, UI]
 ---

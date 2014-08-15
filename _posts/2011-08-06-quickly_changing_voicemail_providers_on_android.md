@@ -1,6 +1,5 @@
 ---
 title:  Quickly changing voicemail providers on Android
-date:   2011-08-06 20:45:00
 layout: post
 tags:   [Android, tips, Verizon]
 ---

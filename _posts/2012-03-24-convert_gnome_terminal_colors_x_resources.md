@@ -1,6 +1,5 @@
 ---
 title:  Converting a GNOME Terminal colorscheme to X resources
-date:   2012-03-24 18:53:00
 layout: post
 tags:   [Linux,tips]
 ---

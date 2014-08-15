@@ -1,6 +1,5 @@
 ---
 title:  Using Amazon.com's Universal Wishlist with Vimperator
-date:   2011-08-06 20:54:00
 layout: post
 tags:   [Amazon.com, Firefox, Vimperator]
 ---

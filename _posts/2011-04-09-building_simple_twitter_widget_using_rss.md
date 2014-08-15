@@ -1,6 +1,5 @@
 ---
 title:  Building a simple Twitter widget using RSS
-date:   2011-04-09 16:53:00
 layout: post
 tags:   [howto, PHP, tips, Twitter]
 ---

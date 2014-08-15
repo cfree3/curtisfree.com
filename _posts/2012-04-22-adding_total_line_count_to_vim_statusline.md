@@ -1,6 +1,5 @@
 ---
 title:  Adding the total line count to Vim's status line
-date:   2012-04-22 12:23:00
 layout: post
 tags:   [tips, Vim]
 ---

@@ -13,5 +13,4 @@ openid-provider:         https://www.google.com/accounts/o8/ud?source=profiles
 openid-local-id:         https://www.google.com/profiles/curtis.free
 markdown:                kramdown
 permalink:               /blog/:year/:month/:day/:title/
-timezone:                US/Eastern
 exclude:                 [README.md]

@@ -1,6 +1,5 @@
 ---
 title:  Easy Delicious bookmarking with Vimperator
-date:   2011-08-06 20:52:00
 layout: post
 tags:   [bookmarks, Delicious, Firefox, Vimperator]
 ---

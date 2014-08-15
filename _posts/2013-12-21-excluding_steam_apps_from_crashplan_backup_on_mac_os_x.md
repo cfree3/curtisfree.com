@@ -1,6 +1,5 @@
 ---
 title:  Excluding Steam apps from CrashPlan backup on Mac OS X
-date:   2013-12-21 21:21:00
 layout: post
 tags:   [CrashPlan, Mac, Steam]
 ---

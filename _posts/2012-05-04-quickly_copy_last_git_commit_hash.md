@@ -1,6 +1,5 @@
 ---
 title:  Quickly copy last Git commit hash
-date:   2012-05-05 01:34:00
 layout: post
 tags:   [Git, tips, workflow]
 ---

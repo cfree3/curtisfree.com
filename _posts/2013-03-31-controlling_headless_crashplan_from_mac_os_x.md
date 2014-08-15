@@ -1,6 +1,5 @@
 ---
 title:  Controlling a headless CrashPlan instance from Mac OS X
-date:   2013-03-31 22:38:19
 layout: post
 tags:   [CrashPlan, Mac]
 ---

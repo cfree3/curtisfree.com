@@ -1,6 +1,5 @@
 ---
 title:  Viewing a file as of any Git revision
-date:   2012-07-06 15:13:00
 layout: post
 tags:   [ Git, tips, Vim ]
 ---

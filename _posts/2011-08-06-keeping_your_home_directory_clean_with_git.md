@@ -1,6 +1,5 @@
 ---
 title:  Keeping your home directory clean with Git
-date:   2011-08-06 20:50:00
 layout: post
 tags:   [Git, tips]
 ---

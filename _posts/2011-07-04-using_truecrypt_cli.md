@@ -1,6 +1,5 @@
 ---
 title:  Using the TrueCrypt CLI
-date:   2011-07-04 20:02:00
 layout: post
 tags:   [CLI, TrueCrypt]
 ---

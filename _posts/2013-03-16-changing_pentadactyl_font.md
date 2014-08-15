@@ -1,6 +1,5 @@
 ---
 title:  Changing the font in Pentadactyl
-date:   2013-03-16 20:54:00
 layout: post
 tags:   [Firefox, Pentadactyl]
 ---

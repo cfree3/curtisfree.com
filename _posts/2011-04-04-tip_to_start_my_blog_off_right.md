@@ -1,6 +1,5 @@
 ---
 title:  A tip to start my blog off right...
-date:   2011-04-05 03:35:00
 layout: post
 tags:   [Blogger, tips]
 ---
