@@ -16,6 +16,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500,600);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 
 body {
     background-color: #6B8E23;
@@ -75,6 +76,10 @@ header h1 {
 
 header #tagline {
     font-style: italic;
+}
+
+header i.fa {
+    padding: 0 0.075em 0 0.075em;
 }
 
 footer {
