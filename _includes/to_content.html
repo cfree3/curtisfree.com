@@ -29,13 +29,13 @@
               {% endif %}
             </h1>
           </td>
-          <td><a class="{% if page.path == 'about/index.md' %}current{% endif %}" href="/about/">About</a></td>
-          <td><a class="{% if page.path == 'blog/index.md' %}current{% endif %}" href="/blog/">Blog</a></td>
+          <td><a class="{% if section == 'about' %}current{% endif %}" href="/about/">About</a></td>
+          <td><a class="{% if section == 'blog' %}current{% endif %}" href="/blog/">Blog</a></td>
           <td><a class="" href="{{ site.github-url }}/config">Config</a></td>
           <td><a class="" href="{{ site.github-url }}/CurtisFree.com/wiki">DB</a></td>
-          <td><a class="{% if page.path == 'projects/index.md' %}current{% endif %}" href="/projects/">Projects</a></td>
+          <td><a class="{% if section == 'projects' %}current{% endif %}" href="/projects/">Projects</a></td>
           <td><a class="" href="{{ site.github-url }}/scripts">Scripts</a></td>
-          <td><a class="{% if page.path == 'stuff/index.md' %}current{% endif %}" href="/stuff/">Stuff</a></td>
+          <td><a class="{% if section == 'stuff' %}current{% endif %}" href="/stuff/">Stuff</a></td>
           <td><a class="" href="{{ site.wishlist-url }}">Wishlist</a></td>
           <td id="tagline">
             I'm a geek, and I have
