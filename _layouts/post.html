@@ -13,7 +13,7 @@
         </div>
 
         <h4 class="post_meta">
-          [ {{ page.date | date:'%d %b %Y @ %I:%M %p' }} ]
+          [ {{ page.date | date:'%d %b %Y @ %I:%M %p %Z' }} ]
           {% if page.tags.size > 0 %}
           [ {{ page.tags | join:' | ' }} ]
           {% endif %}
@@ -23,5 +23,4 @@
 
       </div>
 
-      {% include nextlink.html %}
 {% include from_pgbody.html %}

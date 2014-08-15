@@ -1,28 +1,19 @@
 ---
 title:  CurtisFree.com Blog
-layout: blog
+layout: default
 ---
-{% for post in site.posts limit: 3 %}
-
-  <div class="post">
-
-    <h3 class="post_title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-    <div class="post_body">
-      {{ post.content }}
-    </div>
-
-    <h4 class="post_meta">
-      [ {{ post.date | date:'%d %b %Y @ %I:%M %p' }} ]
-      {% if post.tags.size > 0 %}
-      [ {{ post.tags | join:' | ' }} ]
-      {% endif %}
-      [ <a href="{{ site.url }}{{ post.url }}">Permalink</a> ]
-      [ <a href="mailto:{{ site.email }}?subject=Blog ({{ post.id | remove_first:'/blog/' }})">?</a> ]
-    </h4>
-
-  </div>
-
-{% endfor %}
-
-{% include nextlink.html %}
+### Blogline ([RSS](/blog/feed/)):
+<table class="post_list">
+  {% for post in site.posts %}
+    <tr>
+      <td class="post_link"><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td class="post_date">
+        {% capture year %}{{ post.date | date:'%Y' }}{% endcapture %}
+          {% if year != previous_year %}
+            {{ year }}
+          {% capture previous_year %}{{ year }}{% endcapture %}
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+</table>
