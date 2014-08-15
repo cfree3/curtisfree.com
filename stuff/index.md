@@ -1,5 +1,5 @@
 ---
-title:  CurtisFree.com &rarr; Stuff
+title:  Stuff
 layout: default
 ---
 ### Friends around the Web:

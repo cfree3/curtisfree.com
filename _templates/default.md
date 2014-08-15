@@ -1,5 +1,5 @@
 ---
-title:  CurtisFree.com &rarr; <Title>
+title:  <Title>
 layout: default
 ---
 <content>

@@ -1,5 +1,5 @@
 ---
-title:  CurtisFree.com &rarr; Projects
+title:  Projects
 layout: default
 ---
 ### [Brew Notify][project_brew-notify]

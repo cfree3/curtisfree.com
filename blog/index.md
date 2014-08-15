@@ -1,5 +1,4 @@
 ---
-title:  CurtisFree.com Blog
 layout: blog
 ---
 ### Blogline ([RSS](/blog/feed/)):

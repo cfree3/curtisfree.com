@@ -1,5 +1,5 @@
 ---
-title:  CurtisFree.com &rarr; About
+title:  About
 layout: default
 ---
 ### About Me
