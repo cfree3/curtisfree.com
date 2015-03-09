@@ -86,9 +86,8 @@ faucibus.
 ~~~
 
 While that looks nice at quick glance, further inspection reveals that there are two spaces between
-sentences -- something I don't like. Some additional Vim commands can clean that up, but it's even
-easier if one introduces a command to accomplish the task. I added the following to my Vim
-configuration:
+certain sentences. Some additional Vim commands can clean that up, but it's even easier if one
+introduces a command to accomplish the task. I added the following to my Vim configuration:
 
 ~~~ vim
 map <C-e> vipgqgv:s/ \{2,\}/ /g<CR>:noh<CR>
@@ -96,11 +95,11 @@ map <C-e> vipgqgv:s/ \{2,\}/ /g<CR>:noh<CR>
 
 Now, `<C-e>` will do several things:
 
-1. Select the paragraph under the cursor
-2. Reformat the paragraph source as illustrated above
-3. Reselect the paragraph
-4. Replace multiple spaces with a single space
-5. Clear the search pattern
+1. Select the paragraph under the cursor (`vip`)
+2. Reformat the paragraph source as illustrated above (`gq`)
+3. Reselect the paragraph (`gv`, which re-selects the previous visual selection)
+4. Replace multiple spaces with a single space (`:s/ \{2,\}/ /g<CR>`)
+5. Clear the search pattern (`:noh<CR>`)
 
 (That last item is important because I don't want Vim to highlight _all_ occurrences of multiple
 spaces should I have space indents and the like elsewhere in my source.)
