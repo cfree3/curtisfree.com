@@ -6,9 +6,9 @@ layout: default
 
 My name is Curtis Free, and I have [the most wonderful wife in the anywhere][curtisandrebecca].
 
-I have a B.S. in Computer Science from the [Georgia Institute of Technology][gatech], with "threads"
-_Platforms_ and _Information Internetworks_. I am currently working toward an M.S. in the same
-field, with a specialization in Information Security.
+I have B.S. and M.S. degrees in Computer Science from the [Georgia Institute of Technology][gatech].
+Through Georgia Tech's ["Threads" program][threads], my undergraduate focus areas were _Platforms_
+and _Information Internetworks_. As a graduate student, I specialized in Information Security.
 
 My primary interest areas are web development, databases, operating systems, and computer
 architecture.
@@ -32,6 +32,7 @@ Bored][avatar_generator].
 
 [curtisandrebecca]: http://curtisandrebecca.com
 [gatech]:           http://www.gatech.edu
+[threads]:          http://www.cc.gatech.edu/threads-better-way-learn-cs
 [livejournal]:      http://www.livejournal.com
 [claimid]:          https://claimid.com
 [fonts]:            https://www.google.com/fonts/
