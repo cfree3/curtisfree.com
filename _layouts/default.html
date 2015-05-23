@@ -4,6 +4,7 @@
 {% include canonical.html %}
 {% include to_content.html %}
       <div class="content">
+        {% if page.title != null %}<h3>{{ page.title }}</h3>{% endif %}
         {{ content }}
       </div>
 {% include from_content.html %}

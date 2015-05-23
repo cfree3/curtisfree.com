@@ -2,8 +2,6 @@
 title:  About
 layout: default
 ---
-### About Me
-
 My name is Curtis Free, and I have [the most wonderful wife in the anywhere][curtisandrebecca].
 
 I have B.S. and M.S. degrees in Computer Science from the [Georgia Institute of Technology][gatech].
@@ -18,7 +16,7 @@ Z_ days but that I've continued to use).
 
 <img alt="Rebecca and me..." src="/imgs/wedding.jpg" />
 
-### About CurtisFree.com
+#### CurtisFree.com
 
 _CurtisFree.com_ is my little part of the Web.
 

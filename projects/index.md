@@ -2,23 +2,23 @@
 title:  Projects
 layout: default
 ---
-### [Brew Notify][project_brew-notify]
+#### [Brew Notify][project_brew-notify]
 
 Putting your Mac's Caps Lock LED to good use.
 
-### [`clipw`][project_clipw]
+#### [`clipw`][project_clipw]
 
 `clipw` is a simple CLI password manager written as a BASH script.
 
-### [Draw a Blank][project_draw-a-blank]
+#### [Draw a Blank][project_draw-a-blank]
 
 Simple Chrom{e,ium} extension that replaces the default New Tab page with a blank one.
 
-### [Got][project_got]
+#### [Got][project_got]
 
 Simple, configurable Git wrapper.
 
-### [Userscripts][project_userscripts]
+#### [Userscripts][project_userscripts]
 
 A collection of JavaScript [userscripts][userscripts] that can be used with the
 [Greasemonkey][greasemonkey] [Firefox][firefox] extension or in

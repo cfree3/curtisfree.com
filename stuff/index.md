@@ -2,7 +2,7 @@
 title:  Stuff
 layout: default
 ---
-### Friends around the Web:
+#### Friends around the Web:
 * [Fancy Feline Rescue of the South][fancy_feline]
 * [gingitsune23's Blog][gingitsune] (Comic reviews)
 * [Lyerbird Recordings][lyerbird]
