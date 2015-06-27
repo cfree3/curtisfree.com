@@ -23,5 +23,5 @@ Smile][amazon_smile].
 [audible]:         http://www.audible.com/
 [audible_gift]:    http://www.audible.com/mt/giftmembership
 [1000_faces]:      http://www.1000facescoffee.com/
-[amazon_wishlist]: http://smile.amazon.com/gp/registry/wishlist/?sort=priority
+[amazon_wishlist]: http://smile.amazon.com/gp/registry/wishlist/?cid=A274FW9LOL13Z0&sort=priority
 [amazon_smile]:    http://smile.amazon.com/
