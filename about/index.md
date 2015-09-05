@@ -24,9 +24,7 @@ The simple design of this website was originally based on [LiveJournal][livejour
 theme. The color scheme (particularly the green background) is inspired by that of
 [claimID][claimid] (and possibly other websites).
 
-Fonts are from [Google Web Fonts][fonts]. The site favicon, a miniature version of an avatar I use
-around the web, was created with an online avatar generator like [the one found on I Am
-Bored][avatar_generator].
+Fonts are from [Google Web Fonts][fonts].
 
 [curtisandrebecca]: http://curtisandrebecca.com
 [gatech]:           http://www.gatech.edu
@@ -34,4 +32,3 @@ Bored][avatar_generator].
 [livejournal]:      http://www.livejournal.com
 [claimid]:          https://claimid.com
 [fonts]:            https://www.google.com/fonts/
-[avatar_generator]: http://www.i-am-bored.com/bored_link.cfm?link_id=9962
