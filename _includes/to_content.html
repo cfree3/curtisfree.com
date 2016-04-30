@@ -22,9 +22,8 @@
         <tr>
           <td class="header">
             <h1 id="blog_title" >
-              <a id="main_link" href="/">CurtisFree.com</a>
               {% capture section %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-              {% if section == 'blog' %}
+              <a id="main_link" href="/">Curtis Free</a>{% if section == 'blog' %}'s
               <a id="blog_link" href="/blog/">Blog</a>
               {% endif %}
             </h1>

@@ -1,6 +1,7 @@
 CurtisFree.com
 ==============
-This repository contains the source code behind [CurtisFree.com][site].
+This repository contains the source code behind my personal website (at
+[`http://www.curtisfree.com`][site]).
 
 Requirements
 ------------

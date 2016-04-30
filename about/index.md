@@ -16,9 +16,7 @@ Z_ days but that I've continued to use).
 
 <img alt="Rebecca and me..." src="/imgs/wedding.jpg" />
 
-#### CurtisFree.com
-
-_CurtisFree.com_ is my little part of the Web.
+#### Website
 
 The simple design of this website was originally based on [LiveJournal][livejournal]'s "Generator"
 theme. The color scheme (particularly the green background) is inspired by that of
