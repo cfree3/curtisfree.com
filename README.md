@@ -25,6 +25,6 @@ Text content licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/"> Creative Commons Attribution-ShareAlike 4.0
 International License</a>.
 
-[site]:     http://curtisfree.com
+[site]:     http://www.curtisfree.com
 [jekyll]:   http://jekyllrb.com
 [kramdown]: http://kramdown.rubyforge.org
