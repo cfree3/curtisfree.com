@@ -1,5 +1,5 @@
-CurtisFree.com
-==============
+`curtisfree.com`
+================
 This repository contains the source code behind my personal website (at
 [`https://curtisfree.com`][site]).
 

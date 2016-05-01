@@ -53,4 +53,4 @@ The code for my site (and blog) is now [on GitHub][github_site].
 [blog]:         /blog
 [feed]:         /blog/feed
 [disqus]:       https://disqus.com
-[github_site]:  https://github.com/cfree3/CurtisFree.com
+[github_site]:  https://github.com/cfree3/curtisfree.com
