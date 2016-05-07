@@ -10,7 +10,7 @@
 
 $color-fg:    black;
 $color-bg:    white;
-$color-theme: olivedrab;
+$color-theme: {{ site.color }};
 
 /*
  * Fonts
