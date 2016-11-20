@@ -8,19 +8,21 @@ I have B.S. and M.S. degrees in Computer Science from the [Georgia Institute of 
 Through Georgia Tech's ["Threads" program][threads], my undergraduate focus areas were _Platforms_
 and _Information Internetworks_. As a graduate student, I specialized in Information Security.
 
-My primary interest areas are web development, databases, operating systems, and computer
-architecture.
+As my studies suggest, I am very interested in information security, computer architectures,
+operating systems, networking, and the web. Professionally, I tie all of these interests together
+and have a particular focus on secure database designs. From a "hobbyist" perspective, I follow the
+world of mobile technology somewhat closely and am very interested in security on mobile platforms.
 
-Around the Internet, I sometimes use the alias **ssjlegendx** (a name with roots in my _DragonBall
-Z_ days but that I've continued to use).
+Around the internet, I might be found using the alias **ssjlegendx** (a name with roots in my
+_DragonBall Z_ days). More recently, I've preferred to use some variation on my actual name.
 
 <img alt="Rebecca and me..." src="/imgs/wedding.jpg" />
 
 #### Website
 
 The simple design of this website was originally based on [LiveJournal][livejournal]'s "Generator"
-theme. The color scheme (particularly the green background) is inspired by that of
-[claimID][claimid] (and possibly other websites).
+theme. The color scheme (particularly the green background) is inspired by that of sites such as
+[claimID][claimid].
 
 Fonts are from [Google Web Fonts][fonts].
 
