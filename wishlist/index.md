@@ -6,8 +6,8 @@ If you're looking to get me a gift, well... thanks in advance! Here are some ide
 
 #### Audiobooks
 
-I enjoy listening to audiobooks and have a subscription to [Audible][audible]. A [gift
-membership][audible_gift] going toward my subscription would be greatly appreciated!
+I enjoy listening to audiobooks on [Audible][audible]. A [gift membership][audible_gift] or even a
+gifted book would be appreciated!
 
 #### Coffee
 
