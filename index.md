@@ -1,4 +1,5 @@
 ---
+title:  ''
 layout: default
 ---
 ### Hey! You've reached the personal website of Curtis Free.
