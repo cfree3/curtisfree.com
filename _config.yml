@@ -1,5 +1,7 @@
 # _config.yml
 ## Jekyll configuration for curtisfree.com.
+
+# Overall config:
 name:                    "Curtis Free"
 author:                  "Curtis Free"
 email:                   cf@curtisfree.com
@@ -15,3 +17,12 @@ google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 markdown:                kramdown
 permalink:               /blog/:year/:month/:day/:title/
 exclude:                 [README.md]
+
+# YAML defaults:
+defaults:
+    -
+        scope:
+            path:  ""
+            type:  "pages"
+        values:
+            title: ""
