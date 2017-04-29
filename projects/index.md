@@ -18,6 +18,10 @@ Simple Chrom{e,ium} extension that replaces the default New Tab page with a blan
 
 Simple, configurable Git wrapper.
 
+#### [PeerWeb][project_peerweb]
+
+A peer-to-peer (P2P) web serving system.
+
 #### [Userscripts][project_userscripts]
 
 A collection of JavaScript [userscripts][userscripts] that can be used with the
@@ -28,6 +32,7 @@ A collection of JavaScript [userscripts][userscripts] that can be used with the
 [project_clipw]:        {{ site.github-url }}/clipw
 [project_draw-a-blank]: {{ site.github-url }}/draw-a-blank
 [project_got]:          {{ site.github-url }}/got
+[project_peerweb]:      https://github.com/PeerWeb
 [project_userscripts]:  {{ site.github-url }}/userscripts
 [userscripts]:          https://userscripts.org
 [greasemonkey]:         http://www.greasespot.net
