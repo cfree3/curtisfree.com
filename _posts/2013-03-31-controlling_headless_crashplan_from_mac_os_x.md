@@ -9,10 +9,10 @@ use a [Raspberry Pi][pi] [as a home CrashPlan server][server].
 Fortunately, though technically unsupported, it's very easy to administer a headless CrashPlan
 instance (like that on a Pi): CrashPlan covers this [in their support documents][headless].
 
-Steps _4_-_5_ of "Configuring a Headless Client" require that the user temporarily modify the
-contents of `CrashPlan/conf/ui.properties`. While it is not difficult to locate that file on a
-Linux-like system (just look at the installation directory or list of files provided by the
-appropriate package), its location on OS X is not as obvious.
+Steps 4-5 of "Configuring a Headless Client" require that the user temporarily modify the contents
+of `CrashPlan/conf/ui.properties`. While it is not difficult to locate that file on a Linux-like
+system (just look at the installation directory or list of files provided by the appropriate
+package), its location on OS X is not as obvious.
 
 But all `.app` Mac applications are really just special directories. Assuming that CrashPlan has
 been installed to the system-wide `Applications` folder, this configuration file is located at
