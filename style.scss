@@ -60,7 +60,6 @@ a {
 
 p {
     margin-bottom: 1.2em;
-    margin-left:   2em;
     margin-top:    1.2em;
     text-align:    justify;
 
@@ -72,11 +71,6 @@ p {
 
 ul {
     list-style-type: square;
-    margin-left:     2em;
-}
-
-ol {
-    margin-left: 2em;
 }
 
 img {
@@ -93,28 +87,18 @@ img {
     }
 }
 
-h2 {
-    margin-left: 1em;
-}
-
-h3 {
-    margin-left: 0em;
-}
-
 hr {
     background-color: $color-fg;
     border:           none;
     color:            $color-bg;
     height:           1px;
-    margin-left:      2.5em;
-    margin-right:     2.0em;
 }
 
 pre {
     background-color: #F8F8F8;
     border-left:      medium solid $color-theme;
     font-size:        medium;
-    margin-left:      3.5em;
+    margin-left:      1.5em;
     margin-right:     1.5em;
     padding:          0.5em 0.5em 0.5em 1.5em;
 }
@@ -267,10 +251,17 @@ div.container {
             margin:  0 1em 0 1em !important;
         }
     }
+
+    h1,h2,h3,h4,h5,h6 {
+        margin-left: -1em;
+    }
 }
 
 .content {
-    padding-right: 2em;
+    .post_body {
+        padding-left:  2em;
+        padding-right: 2em;
+    }
 
     img {
         border:        medium solid $color-fg;
@@ -304,14 +295,6 @@ div.container {
 h4.post_meta {
     font-size:   smaller;
     font-weight: normal;
-    margin-left: 3.5em;
-}
-
-div.post_body h4 {
-    margin-left: 1em;
-}
-
-h4.post_meta {
     text-align: right;
 }
 
