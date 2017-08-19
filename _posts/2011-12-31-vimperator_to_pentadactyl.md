@@ -13,7 +13,7 @@ That said, Vimperator 3 was a departure from the experience I had come to know a
     security feature: color-coding (the status bar) to indicate the security in use on the current
     page. Though one can use [a custom script][vimperator_script] to re-implement this color-coding,
     it causes noticable delay when changing tabs.
-  
+
   * Certain lower-level aspects became less _Vim-like_. For example, the `'guioptions'` option (like
     that in Vim) was replaced with `'gui'` -- which has different (and sometimes confusing)
     behavior.
@@ -37,7 +37,7 @@ Importantly, both of the _specific_ points mentioned above are nonissues with Pe
     default) shows only a single line at the bottom of the window. Whereas Vimperator's "single
     line" is a dual-purpose status and command line, Pentadactyl shows only the status line and
     reveals the command line only when necessary.
-  
+
   * Pentadactyl still uses `'guioptions'`. That said, some options diverge from what one might be
     accustomed to with Vim. Notably, search-related options use the term `find` instead of `search`
     (e.g., Vim's `'hlsearch'` vs. Pentadactyl's `'hlfind'`); and Vim's multiple case-related options

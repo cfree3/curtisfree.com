@@ -33,7 +33,7 @@ post paths, too.
 
 The Atom feed for blog posts can now be found at [`curtisfree.com/blog/feed`][feed].
 
-A significant side effect of leaving Blogger for Jekyll is that I no longer have native support for 
+A significant side effect of leaving Blogger for Jekyll is that I no longer have native support for
 comments. Many (most?) bloggers using Jekyll make use of [DISQUS][disqus] to add third-party support
 for comments, but I've chosen to have _no comments_ for now. The question-mark link at the end of
 each post is a stand-in, giving a link to email me directly with any comments and/or questions.

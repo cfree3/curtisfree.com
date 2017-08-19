@@ -47,7 +47,7 @@ they contain no actual files (see why [here][google_empty_dirs]):
     `-- Flash_Player
         `-- AssetCache
             `-- 5885UGDY
-    
+
     3 directories, 0 files
     % git st
     # On branch master

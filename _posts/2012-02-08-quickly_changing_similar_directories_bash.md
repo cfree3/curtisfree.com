@@ -23,7 +23,7 @@ worse, non-global) search-and-replace:
 Unfortunately, users of BASH don't get this nicety; however, by adding a (somewhat) simple function
 to your shell config (`~/.bashrc` or perhaps `~/.bash_profile`), you can emulate this behavior:
 
-    cd () { 
+    cd () {
         if [ $# -eq 1 ]; then
             builtin cd ${1}
         elif [ $# -gt 2 ]; then

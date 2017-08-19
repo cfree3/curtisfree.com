@@ -34,27 +34,27 @@ simple and _works_.
 Let's take a look at my own widget <del>(see [my homepage][home])</del>:
 
     <?php
-    
+
         require('tp/magpierss/rss_fetch.inc'); // using Magpie RSS
-    
+
         // get the latest tweet via RSS
         $url = 'http://twitter.com/statuses/user_timeline/222659411.rss';
         $latest_tweet = fetch_rss($url)->items[0]['title'];
-    
+
         // we'll replace some patterns in the tweet
         $patterns = array(); $replacements = array();
-    
+
         $patterns[] = '/curtisafree: /'; // remove Twitter username
         $replacements[] = '';
-    
+
         $patterns[] = '/(https?:\/\/[^ ]+)/'; // make URLs into links
         $replacements[] = '<a href="\1">\1</a>';
-    
+
         $patterns[] = '/@([a-zA-Z0-9_]+)/'; // turn user references into links
         $replacements[] = '<a href="https://twitter.com/\1">@\1</a>';
-    
+
         echo preg_replace($patterns, $replacements, $latest_tweet);
-    
+
     ?>
 
 The first task is to import the Magpie code. My path (`tp/magpierss/rss_fetch.inc`) will only be

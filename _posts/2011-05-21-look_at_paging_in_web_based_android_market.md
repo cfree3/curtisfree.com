@@ -31,7 +31,7 @@ But what motivated Google's design? There are multiple possibilities:
   * *User experience.*
     Simple: Why show the user so many pages in the menu? The further a user delves into the pages,
     the further he/she will likely go, so show more pages as the user goes further into the results.
-  
+
   * *Querying.*
     Perhaps the query used on the backend examines only enough data to know that there are a certain
     number of pages. Most users only visit the earliest pages, so why even consider the later

@@ -14,7 +14,7 @@ A simple shell (ZSH, BASH, or similar) function makes the last step a little bit
     gitcp() { git log -1 --format="%H" | xclip -in; }
 
 After running `gitcp`, the hash of the last commit is in X's primary selection and can easily be
-pasted into a comment box in the issue tracker.  
+pasted into a comment box in the issue tracker.
 
 Depending on your preferences, you can [instruct `xclip`][xclip] to copy into a different X
 "selection" -- or you can even use [Autocutsel][autocutsel] to sync your X selections.
