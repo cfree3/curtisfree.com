@@ -215,7 +215,7 @@ div.container {
 #blog_title {
     a {
         &#main_link {
-            @extend a.hidden;
+            @extend .hidden;
         }
 
         &#blog_link {
