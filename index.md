@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-### Hey! You've reached the personal website of Curtis Free.
+### Why, hello there!
 
 Want to talk? Send me an [email][email] or a [tweet][tweet]! Prefer to read? Check out some of my
 latest blog posts:
