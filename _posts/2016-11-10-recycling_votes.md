@@ -7,7 +7,7 @@ tags:   [politics]
 The outcome of the recent presidental race severely upset Democratic voters, as one could expect.
 Because Hillary Clinton received a plurality of votes but lost the election in terms of electoral
 votes, many frustrated voters are suggesting that we [dismantle the Electoral College][electoral]
-(which, to be clear, I support). But another theme admist the discontent has been vehement
+(which, to be clear, I support). But another theme amidst the discontent has been vehement
 negativity toward the large number of citizens who cast votes for the Libertarian candidate, Gary
 Johnson -- votes which could have supported another candidate instead.
 
