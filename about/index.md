@@ -3,7 +3,7 @@ title:  About
 layout: default
 ---
 My name is Curtis Free, and I have [the most wonderful wife in the anywhere][curtisandrebecca]
-and [a perfect little boy][matthewdrakefree].
+and [a perfect kid][matthewdrakefree].
 
 My pronouns are _he_/_him_/_his_.
 
