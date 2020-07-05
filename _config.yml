@@ -2,7 +2,7 @@
 ## Jekyll configuration for curtisfree.com.
 
 # Overall config:
-name:                    "Curtis Free"
+title:                   "Curtis Free"
 author:                  "Curtis Free"
 email:                   cf@curtisfree.com
 description:             "Husband, father, geek, progressive."
