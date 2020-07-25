@@ -16,7 +16,7 @@ twitter-url:             https://twitter.com/curtisafree
 google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 markdown:                kramdown
 permalink:               /blog/:year/:month/:day/:title/
-exclude:                 [README.md]
+exclude:                 [ README.md , docker-compose.yml ]
 
 # YAML defaults:
 defaults:

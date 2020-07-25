@@ -8,16 +8,15 @@ Requirements
 
 ### Building:
 
-* [Jekyll][jekyll]
-* [kramdown][kramdown]
+* [Docker][docker]
 
-Building with Jekyll
---------------------
-To build a deployable site, one need only run the following (from the repo root):
+Building with Jekyll via Docker
+-------------------------------
+To build a deployable site (simulating GitHub pages), simply use `docker-compose`:
 
-    % jekyll
+    % docker-compose up
 
-The generated site files are found in `_site`.
+Once started, you can access the site locally via `https://localhost:4000`.
 
 License
 -------
@@ -27,5 +26,4 @@ href="http://creativecommons.org/licenses/by-sa/4.0/"> Creative Commons Attribut
 International License</a>.
 
 [site]:     https://curtisfree.com
-[jekyll]:   http://jekyllrb.com
-[kramdown]: http://kramdown.rubyforge.org
+[docker]:   https://www.docker.com
