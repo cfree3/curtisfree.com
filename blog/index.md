@@ -1,7 +1,7 @@
 ---
 layout: blog
 ---
-### Blogline ([RSS](/blog/feed/)):
+### Blogline
 
 <table class="post_list">
   {% for post in site.posts %}
