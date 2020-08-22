@@ -1,7 +1,6 @@
 ---
 title:  A tip to start my blog off right...
 layout: post
-tags:   [Blogger, tips]
 ---
 Did you know that you can include (at least some) HTML in your Blogger title?
 
@@ -15,7 +14,7 @@ Note, however, that if all of the printable characters in your title are links, 
 use the links _below_ it in the blog list to go to its settings (as the usually-clickable title
 will have your links).
 
-#### _Update (24 Sep 2011):_
+##### _Update (24 Sep 2011)_
 
 While this tip still works:
 

@@ -1,7 +1,6 @@
 ---
 title:  Recycling votes
 layout: post
-tags:   [politics]
 ---
 
 The outcome of the recent presidental race severely upset Democratic voters, as one could expect.
@@ -41,12 +40,12 @@ like about elections in the United States, let's not forget to reconsider how we
 
 **No more wasted votes. Let's recycle them instead.**
 
-#### Disclaimer
+##### Disclaimer
 
 I'm a liberal independent. During the 2016 election cycle, I supported Bernie Sanders in the primary
 and Hillary Clintion in the general.
 
-#### Credit
+##### Credit
 
 This post was inspired by a tweet I saw which linked to a Wikipedia article covering a specific
 ranked-choice voting system. Unfortunately, I cannot recall exactly who produced that tweet or which

@@ -1,7 +1,6 @@
 ---
 title:  A look at paging in the Web-based Android Market
 layout: post
-tags:   [Android, design, UI]
 ---
 If you have an Android phone and haven't visited the Web-based [Android Market][android_market], you
 should check it out. Just this morning, I was glancing over pages of the [top free apps][top_apps]
@@ -39,7 +38,7 @@ But what motivated Google's design? There are multiple possibilities:
 
 Interesting design, Google.
 
-#### _Update (03 Jul 2011):_
+##### _Update (03 Jul 2011)_
 
 It appears that the Market is no longer using the page selector described in this post. Instead,
 the selector now offers the first 10 pages while on page `x < 10`, and pages `x - 5` through `x + 5`

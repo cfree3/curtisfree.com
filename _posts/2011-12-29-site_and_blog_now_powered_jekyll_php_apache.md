@@ -1,16 +1,15 @@
 ---
 title:  Site and blog now powered by Jekyll + PHP + Apache
 layout: post
-tags:   [Apache, blog, Jekyll, PHP, site]
 ---
-#### Out with the old!
+##### Out with the old!
 
 Previously, my site was powered by _CF-CMS_ (my own PHP-based content management system), and my
 blog was on [Blogger][blogger]. Though both were sufficient, managing the appearance of my blog is
 much easier when writing code from scratch than when hacking on a Blogger template. Furthermore,
 using Jekyll is a type of learning experience.
 
-#### In with the new!
+##### In with the new!
 
 My site and blog are now powered by [Jekyll][jekyll]. I'm quite particular regarding some aspects of
 my site---particularly, the URLs. Therefore, I'm using a small PHP "gatekeeper" that allows me to
@@ -25,7 +24,7 @@ popular (and user-friendly) solutions like [WordPress][wordpress]. The fact that
 [GitHub Pages][github_pages] supports Jekyll is certain to lend it a push among geeks, but only time
 will tell how it will fare.
 
-#### What this means...
+##### What this means...
 
 By choice, my blog can now be found at [`curtisfree.com/blog`][blog] (as opposed to
 `blog.curtisfree.com`. Further wreaking havoc with existing "permalinks," I've changed individual
@@ -38,11 +37,11 @@ comments. Many (most?) bloggers using Jekyll make use of [DISQUS][disqus] to add
 for comments, but I've chosen to have _no comments_ for now. The question-mark link at the end of
 each post is a stand-in, giving a link to email me directly with any comments and/or questions.
 
-#### So?
+##### So?
 
 I'm happier with the new solution and -- hopefully -- won't be changing it anytime soon.
 
-#### _Update (29 Dec 2011):_
+##### _Update (29 Dec 2011)_
 
 The code for my site (and blog) is now [on GitHub][github_site].
 

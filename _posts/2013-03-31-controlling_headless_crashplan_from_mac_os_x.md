@@ -1,7 +1,6 @@
 ---
 title:  Controlling a headless CrashPlan instance from Mac OS X
 layout: post
-tags:   [CrashPlan, Mac]
 ---
 I use [CrashPlan][crashplan] as a computer backup solution. Rather than backing up to the cloud, I
 use a [Raspberry Pi][pi] [as a home CrashPlan server][server].

@@ -1,7 +1,6 @@
 ---
 title:  Easy Delicious bookmarking with Vimperator
 layout: post
-tags:   [bookmarks, Delicious, Firefox, Vimperator]
 ---
 If you use [Vimperator][vimperator], add the following to your `~/.vimperatorrc` to enable the
 addition of a [Delicious][delicious] bookmark for the current page simply by pressing `D`:

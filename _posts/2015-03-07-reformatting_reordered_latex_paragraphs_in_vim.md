@@ -1,7 +1,6 @@
 ---
 title:  Reformatting reordered LaTeX paragraphs in Vim
 layout: post
-tags:   [LaTeX, Vim]
 ---
 While revising a non-technical paper in LaTeX recently, I found it useful to reorder the sentences
 in some paragraphs to improve the flow and meaning of the text. In doing this, I often manually

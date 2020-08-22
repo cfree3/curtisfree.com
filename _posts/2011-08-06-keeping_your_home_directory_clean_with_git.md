@@ -1,7 +1,6 @@
 ---
 title:  Keeping your home directory clean with Git
 layout: post
-tags:   [Git, tips]
 ---
 I recently decided to keep my important and public dotfiles in [a repository][config] on
 [Github][github]. In doing so, I comitted _most_ of the simple configuration files that I **want**

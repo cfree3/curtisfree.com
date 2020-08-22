@@ -1,7 +1,6 @@
 ---
 title:  Not all encrypted Google searches are equal
 layout: post
-tags:   [Google, HTTPS, search, tips]
 ---
 Google offers two separate encrypted (i.e., via HTTPS) search pages:
 [`https://encrypted.google.com`][google_encrypted] (which has been established for some time) and
@@ -55,7 +54,7 @@ search engine with a search string of:
 
 If you don't already use the HTTPS-fortified Google search pages, give it a try.
 
-#### _Update (16 Mar 2012):_
+##### _Update (16 Mar 2012)_
 
 The EFF has published [a note][eff_note] pointing out another security-related discrepancy between
 the two subdomains.

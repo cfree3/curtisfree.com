@@ -1,7 +1,6 @@
 ---
 title:  Quickly copy last Git commit hash
 layout: post
-tags:   [Git, tips, workflow]
 ---
 A typical portion of my Git workflow involves the following:
 

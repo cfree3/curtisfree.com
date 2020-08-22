@@ -1,7 +1,6 @@
 ---
 title:  Binary "Priority Inbox" in Microsoft Outlook
 layout: post
-tags:   [ Gmail, Outlook, tips ]
 ---
 [Gmail](https://mail.google.com)'s "Priority Inbox" feature allows a user to separate messages in
 his/her inbox into multiple categories based on message attributes.

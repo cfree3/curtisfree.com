@@ -1,13 +1,12 @@
 ---
 title:  Changing the font in Pentadactyl
 layout: post
-tags:   [Firefox, Pentadactyl]
 ---
 Pentadactyl is excellent (I've posted about it [before][pentadactyl]) -- but depending on your
 system, the font used in its UI elements might not have optimal defaults. In particular, one might
 wish to change the monospace font face and size.
 
-#### Font face
+##### Font face
 
 If you have a favorite [monospace font][monospace], then likely you'll want to use that font in
 Pentadactyl, too. While Pentadactyl's `:hi` command can be used to use different fonts in different
@@ -22,12 +21,12 @@ From Pentadactyl, open the Firefox preferences using `:dialog preferences`. Then
 tab, look for the "Fonts & Colors" section, and click the "Advanced" button. Here you can set your
 preferred monospace font.
 
-<img class="seamless" src="/imgs/firefox_font_settings.png" />
+![](/imgs/firefox_font_settings.png){: .seamless }
 
 Restart Firefox, and (assuming no other overrides) Pentadactyl will begin using the font you
 specified.
 
-#### Font size
+##### Font size
 
 Changing the default monspace font size in Firefox settings does not seem to effect that used by
 Pentadactyl; therefore, we'll turn to the `FontFixed` style group, which applies to some -- but not

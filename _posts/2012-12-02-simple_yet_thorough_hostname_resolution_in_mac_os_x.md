@@ -1,7 +1,6 @@
 ---
 title:  Simple yet thorough hostname resolution in Mac OS X
 layout: post
-tags:   [CLI, Mac, networking]
 ---
 There are many CLI tools available to resolve IPs for domain names, such as `dig` and `host`. While
 these utilities generally perform DNS resolution, they do not typically consider hostnames defined

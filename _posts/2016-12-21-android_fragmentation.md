@@ -1,7 +1,6 @@
 ---
 title:  Android fragmentation
 layout: post
-tags:   [Apple, Android, Bluetooth]
 ---
 It has long been said that Android is "fragmented": Apple exerts tight control over iOS and its
 phones/tablets, but Android OEMs are free to (and almost always do) make changes to the operating
@@ -44,7 +43,7 @@ from a phone.
 
 So, how did the various devices perform?
 
-#### Samsung Galaxy S5 (Kit Kat, Lollipop, Marshmallow)
+##### Samsung Galaxy S5 (Kit Kat, Lollipop, Marshmallow)
 
 Of all the phones I've used, the Galaxy S5's Bluetooth audio experience is the strangest and most
 disappointing.
@@ -62,7 +61,7 @@ Music.
 (This seems to have been fixed in more recent Galaxy devices, as the S7 does not suffer this
 problem.)
 
-#### HTC One (m8) (Kit Kat, Lollipop)
+##### HTC One (m8) (Kit Kat, Lollipop)
 
 I happily used an HTC One (m8) to listen to audio in the Camry for over a year and seldom
 experienced any issues. There, things work as I'd expect: music plays over my car's speakers, and
@@ -73,7 +72,7 @@ music and track info are communicated as I'd want. But the phone never believes 
 process completed, and the phone won't reconnect to the car after disconnecting without unpairing
 and repairing.
 
-#### Asus Nexus 7 (Lollipop)
+##### Asus Nexus 7 (Lollipop)
 
 Ah, [Nexus][nexus].
 
@@ -86,7 +85,7 @@ inexplicable reason -- reported that it does not support devices of that type (a
 phones, perhaps?). This is a failing of the car, however, and should not reflect poorly upon the
 Nexus 7.
 
-#### Huawei Nexus 6P (Marshmallow, Nougat)
+##### Huawei Nexus 6P (Marshmallow, Nougat)
 
 The Nexus 6P exhibits the best behavior out of all these devices. It works exactly as one might
 expect -- playing music and providing track information -- in both the Camry and the HR-V.

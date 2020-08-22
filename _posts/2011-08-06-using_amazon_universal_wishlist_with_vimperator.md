@@ -1,7 +1,6 @@
 ---
 title:  Using Amazon.com's Universal Wishlist with Vimperator
 layout: post
-tags:   [Amazon.com, Firefox, Vimperator]
 ---
 You can also use Vimperator to add items to your Amazon.com wish list. With
 the following code, the command `:amzwishlist` will do the trick:

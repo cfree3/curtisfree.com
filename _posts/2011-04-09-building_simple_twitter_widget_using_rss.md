@@ -1,7 +1,6 @@
 ---
 title:  Building a simple Twitter widget using RSS
 layout: post
-tags:   [howto, PHP, tips, Twitter]
 ---
 Sometimes, [Twitter's "stock" widgets][twitter_widgets] aren't quite what you want.
 
@@ -13,7 +12,7 @@ then that might be the right solution for you, but if you want _only to display 
 publicly-available tweets_, then you can build your own widget using publicly-available Twitter RSS
 feeds.
 
-#### Check out your own feed!
+##### Check out your own feed!
 
 To see the feed for your own tweets, visit your Twitter profile using the old
 Twitter interface (I'm not sure where to find the RSS URL in the new UI). Below the
@@ -22,7 +21,7 @@ icons of your followers, you should see a link to an RSS feed of your tweets:
 
 Copy that URL: you'll need it later.
 
-#### Get coding!
+##### Get coding!
 
 I'm going to cover building a widget using PHP. If you prefer another language, I'm sure you can
 figure it out.
@@ -96,7 +95,7 @@ Via RSS, you'll see the former -- so the regex I provided above should be suffic
 
 And there you have it: a simple Twitter widget that you can place anywhere on your website.
 
-#### _Update (30 Jun 2012):_
+##### _Update (30 Jun 2012)_
 
 I actually haven't been using this widget for a while. I had Twitter's official
 ["profile widget"](https://twitter.com/about/resources/widgets/widget_profile) on the site for a

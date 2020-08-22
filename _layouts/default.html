@@ -1,10 +1,8 @@
 {% include doctype.html %}
-    <title>Curtis Free{% if page.title and page.title != '' %} &rarr; {{ page.title }}{% endif %}</title>
+<title>Curtis Free{% if page.title and page.title != '' %} > {{ page.title }}{% endif %}</title>
 {% include to_canonical.html %}
 {% include canonical.html %}
 {% include to_content.html %}
-      <div class="content">
-        {% if page.title and page.title != '' %}<h3>{{ page.title }}</h3>{% endif %}
-        {{ content }}
-      </div>
+<h3><span class="lead"><a href="/{{ page.url }}">{{ page.title }}</a></h3>
+{{ content }}
 {% include from_content.html %}

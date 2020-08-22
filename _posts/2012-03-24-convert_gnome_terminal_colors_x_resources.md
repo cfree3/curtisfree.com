@@ -1,7 +1,6 @@
 ---
 title:  Converting a GNOME Terminal colorscheme to X resources
 layout: post
-tags:   [Linux,tips]
 ---
 When I began using Linux regularly (nearly five years ago), I used both Ubuntu and Red Hat
 Enterprise Linux (RHEL) -- both with the GNOME desktop environment.
@@ -20,7 +19,7 @@ my personal machine to this day. Fortunately, once you understand the basic rela
 GNOME Terminal's color preferences layout and the X resources color values, it's easy to map any
 scheme.
 
-#### Colors in X resources
+##### Colors in X resources
 
 I won't delve into the details of how X resources colors work in this post. For the purposes of a
 basic tutorial, all you really need to know is that there are 16 "core" colors in X resources,
@@ -49,7 +48,7 @@ really need to worry about that command when you want to see your changes during
 (which, I imagine, is most of the time); but note that some applications will understand changes the
 next time they're launched _without_ the need to `-merge` yourself.
 
-#### Get your colors from GNOME Terminal
+##### Get your colors from GNOME Terminal
 
 The key to using colors from GNOME Terminal with X resources is to understand which colors in the
 preferences pane map to which color values.
@@ -59,31 +58,12 @@ select the profile whose colors you wish to copy, and then click the "Edit" butt
 
 Now, go to the "Colors" tab. At the bottom, you'll see boxes that allow you to change each of the 16
 colors available in GNOME Terminal:
-![](/imgs/gnome_terminal_colors.png){: .seamless }
+![](/imgs/gnome_terminal_colors.png)
 
 The mapping is simple:
-<table>
-  <tr>
-    <td><code>color0</code></td>
-    <td><code>color1</code></td>
-    <td><code>color2</code></td>
-    <td><code>color3</code></td>
-    <td><code>color4</code></td>
-    <td><code>color5</code></td>
-    <td><code>color6</code></td>
-    <td><code>color7</code></td>
-  </tr>
-  <tr>
-    <td><code>color8</code></td>
-    <td><code>color9</code></td>
-    <td><code>color10</code></td>
-    <td><code>color11</code></td>
-    <td><code>color12</code></td>
-    <td><code>color13</code></td>
-    <td><code>color14</code></td>
-    <td><code>color15</code></td>
-  </tr>
-</table>
+
+        color0    color1    color2    color3    color4    color5    color6    color7
+        color8    color9    color10   color11   color12   color13   color14   color15
 
 If you click a color in the grid, you'll get the following window:
 ![](/imgs/gnome_terminal_color_selection.png){: .seamless }
@@ -91,7 +71,7 @@ If you click a color in the grid, you'll get the following window:
 
 The value you need for your own `.Xdefaults` is the one in the "Color name" box.
 
-#### Putting it all together
+##### Putting it all together
 
 As you go through each of the colors in the GNOME Terminal preferences, you can add to and build
 your color settings in your own `~/.Xdefaults`.

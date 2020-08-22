@@ -1,7 +1,6 @@
 ---
 title:  Quickly changing between similar directories in BASH
 layout: post
-tags:   [BASH, CLI, Linux, tips, ZSH]
 ---
 I recently [discovered][zsh_cd] a nifty trick in the `cd` builtin provided by ZSH: the ability to
 change from the current directory to another whose path is generated via simple (and, for better or
@@ -40,7 +39,7 @@ Note that this isn't perfect. For example, it will not work with values of `to_r
 `replace_with` that contain forward slashes (or anything else that will mess with the `sed`
 command). There are certainly more involved methods that would avoid the limitations seen here.
 
-#### _Update (18 Feb 2011):_
+##### _Update (18 Feb 2011)_
 
 [Josh Berry][josh_berry] points out that this can be done using [BASH's built-in string
 manipulation][bash_strings] in place of `sed`. The relevant line in the above function can be

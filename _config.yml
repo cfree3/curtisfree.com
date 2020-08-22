@@ -5,18 +5,23 @@
 title:                   "Curtis Free"
 author:                  "Curtis Free"
 email:                   cf@curtisfree.com
-description:             "Husband, father, geek, progressive."
+description:             "Husband | Dad | Geek"
 url:                     https://curtisfree.com
 color:                   olivedrab
-license-name:            "Creative Commons Attribution-ShareAlike 4.0 International License"
+license-name:            "CC BY-SA 4.0"
 license-url:             https://creativecommons.org/licenses/by-sa/4.0/
+db-url:                  https://github.com/cfree3/curtisfree.com/wiki
 instagram-url:           https://instagram.com/curtisafree
 github-url:              https://github.com/cfree3
 twitter-url:             https://twitter.com/curtisafree
 google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
-markdown:                kramdown
 permalink:               /blog/:year/:month/:day/:title/
 exclude:                 [ README.md , docker-compose.yml ]
+
+# markup
+markdown: kramdown
+kramdown:
+    smart_quotes: [ "apos", "apos", "quot", "quot" ]
 
 # YAML defaults:
 defaults:

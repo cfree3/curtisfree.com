@@ -1,38 +1,24 @@
   </head>
 
   <body>
-    <header>
 
-      <table>
-        <tr>
-          <td class="header">
-            <h1 id="blog_title" >
-              {% capture section %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-              <a id="main_link" href="/">Curtis Free</a>{% if section == 'blog' %}'s
-              <a id="blog_link" href="/blog/">Blog</a>
-              {% endif %}
-            </h1>
-          </td>
-          <td><a class="{% if section == 'about' %}current{% endif %}" href="/about/">About</a></td>
-          <td><a class="{% if section == 'blog' %}current{% endif %}" href="/blog/">Blog</a></td>
-          <td><a class="" href="{{ site.github-url }}/config">Config</a></td>
-          <td><a class="" href="{{ site.github-url }}/curtisfree.com/wiki">DB</a></td>
-          <td><a class="{% if section == 'projects' %}current{% endif %}" href="/projects/">Projects</a></td>
-          <td><a class="{% if section == 'wishlist' %}current{% endif %}" href="/wishlist/">Wishlist</a></td>
-          <td id="tagline">
-            <a href="http://curtisandrebecca.com">Husband</a>
-            &middot;
-            <a href="http://matthewdrakefree.com">Father</a>
-            &middot;
-            Geek
-          </td>
-          <td>
+    <table class="{% if page.title and page.title != '' %}header{% else %}profile{% endif %}">
+      <tr class="header">
+        <td><a href="/"><h1>Curtis&nbsp;Free</h1></a></td>
+        <td>
+          <h2><a href="https://curtisandrebecca.com">Husband</a>&nbsp;&middot;&nbsp;<a href="https://matthewdrakefree.com">Dad</a>&nbsp;&middot;&nbsp;Geek</h2>
+          <p>
+            <a href="/about/">About</a>
+            |
+            <a href="/blog/">Blog</a>
+            |
+            <a href="{{ site.db-url }}">DB</a>
+            |
             <a href="{{ site.twitter-url }}"><i class="fa fa-twitter fa-lg"></i></a>
             <a href="{{ site.github-url }}"><i class="fa fa-github fa-lg"></i></a>
             <a href="{{ site.instagram-url }}"><i class="fa fa-instagram fa-lg"></i></a>
-          </td>
-        </tr>
-      </table>
-    </header>
-
-    <div class="container" id="pgbody">
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td class="content" colspan="2">

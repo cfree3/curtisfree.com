@@ -1,7 +1,6 @@
 ---
 title:  Viewing a file as of any Git revision
 layout: post
-tags:   [ Git, tips, Vim ]
 ---
 When working with code in a Git repository, it is often instructive to view the contents of a file
 as of a different revision.

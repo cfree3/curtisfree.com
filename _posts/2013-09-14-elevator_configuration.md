@@ -1,7 +1,6 @@
 ---
 title:  Elevator configuration
 layout: post
-tags:   [Arch, Mac, UI]
 ---
 Perhaps it's a waste of time, but for years I have enjoyed exploring system and window manager
 configuration. Getting window management _just right_. Making everything _look nice_. Getting every
@@ -9,7 +8,7 @@ key on the keyboard to do _exactly what I want_. And I think that there are two 
 
 > Are you _going up_ or _going down_?
 
-#### Going up
+##### Going up
 
 I used [Arch Linux][arch] from 2007-2012, and it was great. While most Linux distributions can be
 customized to no end, I would say that that is especially so with Arch. When you install Arch, you
@@ -28,7 +27,7 @@ human interface: window management, key operation, etc.
 Arch users tweak every aspect of their systems and shape the installation into exactly what they
 want. In fact, there's no choice: by _going up_, one has to do just that.
 
-#### Going down
+##### Going down
 
 Since 2012, I have primarily used [Mac][mac] OS X; it's a far different experience than Arch (for a
 number of reasons). In particular, I would call the customization approach with OS X (or Windows)
@@ -50,25 +49,21 @@ luck.][shadows]
 I call this _going down_ because you start with a full (and possibly even good) system and then have
 to hack it to meet your needs.
 
-#### So... which is better?
+##### So... which is better?
 
 I don't think that either experience is necessarily better than the other. I would argue that it's
 easier to get what you want out of your experience if you _go up_. As a Mac user, I continue to find
 things I would like to change about my OS X experience, and while it's usually possible with a
 _going down_ hack of some kind, sometimes OS X just won't budge from its "we-know-best" ways.
 
-#### _Update (28 Sep 2013):_
+##### _Update (28 Sep 2013)_
 
 I received a couple of responses to [my tweet][tweet] announcing this post; and I'd like to address
 them here.
 
-<blockquote class="twitter-tweet" data-conversation="none" align="center"><p><a
-href="https://twitter.com/curtisafree">@curtisafree</a> I think my non-Gnome
-Ubuntu setup is &quot;going lateral&quot;.</p>&mdash; Chris Martin
-(@chris__martin) <a
-href="https://twitter.com/chris__martin/statuses/378907878742310912">September
-14, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js"
-charset="utf-8"></script>
+> @curtisafree I think my non-Gnome Ubuntu setup is "going lateral".
+>
+> &mdash; [Chris Martin][tweet-cm]
 
 Chris raises an excellent point -- and one that I didn't consider in my original post. There are
 certainly mid-way systems that need to be torn down _and_ built up to get what one wants.
@@ -91,13 +86,9 @@ manager on top of it. But one still must deal with _other_ unwanted features of 
 solution that meets many of his/her needs but must tear it down _and_ add to it to reach an
 acceptable state.
 
-<blockquote class="twitter-tweet" data-conversation="none" align="center"><p><a
-href="https://twitter.com/curtisafree">@curtisafree</a> I like the metaphor.
-How would you consider something like emacs/vim compared to newer
-environments?</p>&mdash; Josh Berry (@taeric) <a
-href="https://twitter.com/taeric/statuses/378931330345476097">September 14,
-2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js"
-charset="utf-8"></script>
+> @curtisafree I like the metaphor.  How would you consider something like emacs/vim compared to newer environments?
+>
+> &mdash; [Josh Berry][tweet-jb]
 
 I would say that more conventional editors like Vim and Emacs lead to configuration
 "going up": there is a large space for Vim plugins, including very many popular ones that a number of
@@ -122,14 +113,16 @@ an increasing number of features to help programmers. So while the distinction s
 that editors are still a _little_ more "going up" than IDEs -- I think that they're both "lateral"
 in comparison to earlier examples and more conventional text editors.
 
-[arch]:        http://archlinux.org
-[mac]:         http://apple.com/mac
-[haxie]:       https://en.wikipedia.org/w/index.php?title=Haxie&oldid=560332629
-[unsanity]:    http://arstechnica.com/civis/viewtopic.php?p=24502203
-[pckh]:        https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en
-[slate]:       https://github.com/jigish/slate
-[shadows]:     http://apple.stackexchange.com/q/61924
-[tweet]:       https://twitter.com/curtisafree/status/378905271080189952
-[openbox]:     http://openbox.org
-[gnome]:       http://www.gnome.org
-[pathogen]:    https://github.com/tpope/vim-pathogen
+[arch]:     http://archlinux.org
+[mac]:      http://apple.com/mac
+[haxie]:    https://en.wikipedia.org/w/index.php?title=Haxie&oldid=560332629
+[unsanity]: http://arstechnica.com/civis/viewtopic.php?p=24502203
+[pckh]:     https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en
+[slate]:    https://github.com/jigish/slate
+[shadows]:  http://apple.stackexchange.com/q/61924
+[tweet]:    https://twitter.com/curtisafree/status/378905271080189952
+[openbox]:  http://openbox.org
+[gnome]:    http://www.gnome.org
+[pathogen]: https://github.com/tpope/vim-pathogen
+[tweet-cm]: https://twitter.com/chris__martin/statuses/378907878742310912
+[tweet-jb]: https://twitter.com/taeric/statuses/378931330345476097

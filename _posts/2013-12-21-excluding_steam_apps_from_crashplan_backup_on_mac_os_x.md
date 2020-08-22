@@ -1,7 +1,6 @@
 ---
 title:  Excluding Steam apps from CrashPlan backup on Mac OS X
 layout: post
-tags:   [CrashPlan, Mac, Steam]
 ---
 I'm not much of a gamer, but having "purchased" [Portal][portal] for free years ago, I finally
 installed [Steam][steam] on my Mac so that I could (perhaps) try it out.
@@ -20,7 +19,8 @@ directories from backup.
 First, find the **Files** area in the CrashPlan application. Typically this specifies your home
 directory. Then click the **Change...** button. In the resulting directory tree dialog, navigate
 to `~/Library/Application Support/Steam` and uncheck `SteamApps`:
-<img class="seamless" src="/imgs/crashplan_exclude_steam_apps.png" />
+
+![](/imgs/crashplan_exclude_steam_apps.png){: .seamless }
 
 Click the **Save** button, and that's it! CrashPlan will "synchronize" with your backup
 destinations, and you should see the size of your backup decrease.

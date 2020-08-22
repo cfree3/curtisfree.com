@@ -1,10 +1,13 @@
-    </div>
-
-    <footer>
-      Site (text) content licensed under a <a rel="license" href="{{ site.license-url }}">
-      {{ site.license-name }}</a>.
-    </footer>
-
+        </td>
+      </tr>
+{% if page.title and page.title != '' %}
+      <tr class="footer">
+        <td colspan="2">
+          [&nbsp;<a href="{{ site.license-url }}">{{ site.license-name }}</a>&nbsp;]
+        </td>
+      </tr>
+{% endif %}
+    </table>
   </body>
 
 </html>

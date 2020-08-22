@@ -1,7 +1,6 @@
 ---
 title:  Quickly changing voicemail providers on Android
 layout: post
-tags:   [Android, tips, Verizon]
 ---
 ![](/imgs/vmswitch.png){: .left }
 

@@ -1,7 +1,6 @@
 ---
 title:  I've shifted from Vimperator to Pentadactyl
 layout: post
-tags:   [Firefox, Pentadactyl, Vim, Vimperator]
 ---
 I've been using [Vimperator][vimperator] for years. I'm a huge fan of the [Vim][vim] text editor,
 and Vimperator provides a Vim-like user experience in my favorite Web browser,

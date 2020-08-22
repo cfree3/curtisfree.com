@@ -1,7 +1,6 @@
 ---
 title:  Using the TrueCrypt CLI
 layout: post
-tags:   [CLI, TrueCrypt]
 ---
 [TrueCrypt][truecrypt] is a great utility for hiding sensitive data -- whether in an encrypted disk
 image or on an entire encrypted partition.

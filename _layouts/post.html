@@ -1,24 +1,9 @@
 {% include doctype.html %}
-    <title>Curtis Free's Blog &rarr; {{ page.title }}</title>
+<title>Curtis Free > Blog > {{ page.title }}</title>
 {% include to_canonical.html %}
 {% include canonical.html %}
 {% include to_content.html %}
-      <div class="content">
-
-        <h3 class="post_title">{{ page.title }}</h3>
-
-        <div class="post_body">
-          {{ content }}
-        </div>
-
-        <h4 class="post_meta">
-          [ {{ page.date | date:'%d %b %Y' }} ]
-          {% if page.tags.size > 0 %}
-          [ {{ page.tags | join:' | ' }} ]
-          {% endif %}
-          [ <a href="{{ site.url }}{{ page.url }}">Permalink</a> ]
-          [ <a href="mailto:{{ site.email }}?subject=Blog ({{ page.id | remove_first:'/blog/' }})">?</a> ]
-        </h4>
-
-      </div>
+<h3><a href="/blog">Blog</a></h3>
+<h4>{{ page.title }}<span class="tail"> @ {{ page.date | date: '%d %b %Y' }}</span></h4>
+{{ content }}
 {% include from_content.html %}

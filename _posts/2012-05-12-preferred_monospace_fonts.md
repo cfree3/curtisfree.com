@@ -1,7 +1,6 @@
 ---
 title:  My preferred monospace fonts
 layout: post
-tags:   [CLI, fonts, programming, terminals ]
 ---
 As a programmer and command-line enthusiast, I spend a lot of time looking at monospace fonts. For
 many years, I enjoyed using what has been for years a popular default:
@@ -22,9 +21,9 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
     <p>
       Unfortunately, though it's a sans-serif font, the glyph shapes do seem to possess some
-      &ldquo;serif&rdquo; qualities and seem jagged (pixelated). I'm also not a fan of the
-      &ldquo;sharp&rdquo; <i>m</i> and <i>w</i> glyphs at smaller sizes (as shown). I refer to the
-      <i>m</i> as a &ldquo;<a href="https://mail.google.com">Gmail</a> <i>m</i>.&rdquo;
+      &quot;serif&quot; qualities and seem jagged (pixelated). I'm also not a fan of the
+      &quot;sharp&quot; <i>m</i> and <i>w</i> glyphs at smaller sizes (as shown). I refer to the
+      <i>m</i> as a &quot;<a href="https://mail.google.com">Gmail</a> <i>m</i>.&quot;
     </p>
 
   * <a href="http://dejavu-fonts.org">DejaVu</a> Sans Mono
@@ -33,7 +32,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
     <p>
       DejaVu Sans Mono is little more than Bitstream Vera Sans Mono &ndash; so here, I'm not
-      straying far from my &ldquo;safe default&rdquo;; but I prefer DejaVu because it supports a
+      straying far from my &quot;safe default&quot;; but I prefer DejaVu because it supports a
       larger character set (even though, admittedly, I don't make use of it).
     </p>
 
@@ -71,7 +70,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
     </p>
 
     <p>
-      Terminus is &ldquo;tied&rdquo; with DejaVu as my favorite for use on some systems.
+      Terminus is &quot;tied&quot; with DejaVu as my favorite for use on some systems.
     </p>
 
   * <a href="https://bbs.archlinux.org/viewtopic.php?id=130912">Termsyn</a>
@@ -86,11 +85,11 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
       Termsyn is probably the least popular on the list, but it's my default font in
       <code>rxvt-unicode</code> and on virtual consoles on my personal Arch machine. Using my
       preferred size for each font (pictured here), Termsyn is a little larger than Terminus.
-      Furthermore, the &ldquo;serif&rdquo; qualities that I dislike in Tamsyn are not prevalent in
+      Furthermore, the &quot;serif&quot; qualities that I dislike in Tamsyn are not prevalent in
       Termsyn, due to its inheriting simple glyph shapes from Terminus.
     </p>
 
-#### _Update (06 Jul 2012):_
+##### _Update (06 Jul 2012)_
 
 Newer versions of Termsyn include versions in a format usable on virtual consoles, so I no longer
 turn to Tamsyn as a substitute there.

@@ -1,8 +1,7 @@
 ---
+title: Blogline
 layout: blog
 ---
-### Blogline
-
 <table class="post_list">
   {% for post in site.posts %}
     <tr>
