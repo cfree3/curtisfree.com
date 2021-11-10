@@ -16,7 +16,7 @@ github-url:              https://github.com/cfree3
 twitter-url:             https://twitter.com/curtisafree
 google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 permalink:               /blog/:year/:month/:day/:title/
-exclude:                 [ README.md , docker-compose.yml ]
+exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md ]
 
 # markup
 markdown: kramdown

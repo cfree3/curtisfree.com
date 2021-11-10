@@ -1,27 +1,30 @@
-[`curtisfree.com`][site]
-========================
+# [`curtisfree.com`][site]
 
-Requirements
-------------
+## Building with Jekyll
 
-### Building:
+### Setup
 
-* [Docker][docker]
+On macOS, with [Homebrew][brew] installed:
 
-Building with Jekyll via Docker
--------------------------------
-To build a deployable site (simulating GitHub pages), simply use `docker-compose`:
+```sh
+brew install ruby
+gem install bundler
+bundle install
+```
 
-    % docker-compose up
+### Generate, Serve, & Test
 
-Once started, you can access the site locally via `https://localhost:4000`.
+```sh
+bundle exec jekyll serve --watch
+```
 
-License
--------
+Generated static content will be in `_site/` and hosted at `http://localhost:4000`. 
+
+## License
 
 Text content licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
 International License</a>.
 
 [site]:     https://curtisfree.com
-[docker]:   https://www.docker.com
+[brwe]:     https://brew.sh
