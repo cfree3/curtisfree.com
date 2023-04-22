@@ -11,7 +11,7 @@ layout: default
 
 ##### Pronouns
 
-* [_he_/_him_/_his_][pronouns]
+* _he_/_him_/_his_
 
 ##### Education
 
@@ -23,10 +23,14 @@ layout: default
 
 ##### Interests
 
-* Information security
-* Operating systems
-* Mobile platforms
-* Networks
+* Computing
+  * Information security
+  * Operating systems
+  * Mobile platforms
+  * Networks
+* Stationery
+  * Fountain pens
+  * Inks
 
 #### Website
 
@@ -36,9 +40,7 @@ layout: default
 
 [curtisandrebecca]: http://curtisandrebecca.com
 [matthewdrakefree]: http://matthewdrakefree.com
-[pronouns]:         https://pronoun.is/he/him/his
 [gatech]:           http://www.gatech.edu
-[threads]:          http://www.cc.gatech.edu/threads-better-way-learn-cs
-[fonts]:            https://www.google.com/fonts/
+[fonts]:            https://fonts.google.com/
 [src]:              https://github.com/cfree3/curtisfree.com
 [copyleft]:         {{ site.license-url }}

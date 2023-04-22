@@ -5,18 +5,19 @@
 title:                   "Curtis Free"
 author:                  "Curtis Free"
 email:                   cf@curtisfree.com
-description:             "Husband | Dad | Geek"
+description:             "Husband &middot; Dad &middot; Geek"
 url:                     https://curtisfree.com
 color:                   olivedrab
 license-name:            "CC BY-SA 4.0"
 license-url:             https://creativecommons.org/licenses/by-sa/4.0/
-db-url:                  https://github.com/cfree3/curtisfree.com/wiki
-instagram-url:           https://instagram.com/curtisafree
+reddit-url:              https://www.reddit.com/user/curtisafree
 github-url:              https://github.com/cfree3
+reddit-url:              https://www.reddit.com/user/curtisafree
 twitter-url:             https://twitter.com/curtisafree
+instagram-url:           https://instagram.com/curtisafree
 google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 permalink:               /blog/:year/:month/:day/:title/
-exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md ]
+exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md, vendor ]
 
 # markup
 markdown: kramdown

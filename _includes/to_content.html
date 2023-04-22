@@ -1,3 +1,33 @@
+
+    <!--Meta -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="description" content="{{ site.description }}" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="/imgs/icon.png" />
+
+    <!-- Verification -->
+    <meta name="google-site-verification" content="{{ site.google-verification-key }}" />
+
+    <!-- Third Parties -->
+
+      <!-- Preconnect -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
+      <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin="anonymous" />
+
+      <!-- Fonts & Icons -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;700&display=swap" />
+      <script src="https://kit.fontawesome.com/a176398e2e.js" crossorigin="anonymous"></script>
+{% if page.error %}
+    <!-- Error Page (No Canonicalization) -->
+{% else %}
+    <!-- Canonicalization -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url | remove_first:'index.html' }}" />
+{% endif %}
   </head>
 
   <body>
@@ -12,13 +42,14 @@
             |
             <a href="/blog/">Blog</a>
             |
-            <a href="{{ site.db-url }}">DB</a>
-            |
-            <a href="{{ site.twitter-url }}"><i class="fa fa-twitter fa-lg"></i></a>
-            <a href="{{ site.github-url }}"><i class="fa fa-github fa-lg"></i></a>
-            <a href="{{ site.instagram-url }}"><i class="fa fa-instagram fa-lg"></i></a>
+            <a rel="me" href="{{ site.github-url }}"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a rel="me" href="{{ site.reddit-url }}"><i class="fa-brands fa-reddit-alien fa-lg"></i></a>
+            <a rel="me" href="{{ site.twitter-url }}"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a rel="me" href="{{ site.instagram-url }}"><i class="fa-brands fa-instagram fa-lg"></i></a>
           </p>
         </td>
       </tr>
+{% if page.title and page.title != '' %}
       <tr>
         <td class="content" colspan="2">
+{% endif %}
