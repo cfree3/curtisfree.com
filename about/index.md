@@ -27,6 +27,7 @@ layout: default
   * Information security
   * Operating systems
   * Mobile platforms
+  * Cloud
   * Networks
 * Stationery
   * Fountain pens
@@ -38,9 +39,9 @@ layout: default
 * Source on [GitHub][src].
 * Content under [copyleft][copyleft].
 
-[curtisandrebecca]: http://curtisandrebecca.com
-[matthewdrakefree]: http://matthewdrakefree.com
-[gatech]:           http://www.gatech.edu
+[curtisandrebecca]: https://curtisandrebecca.com
+[matthewdrakefree]: https://matthewdrakefree.com
+[gatech]:           https://www.gatech.edu
 [fonts]:            https://fonts.google.com/
 [src]:              https://github.com/cfree3/curtisfree.com
 [copyleft]:         {{ site.license-url }}
