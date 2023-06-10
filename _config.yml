@@ -18,6 +18,7 @@ instagram-url:           https://instagram.com/curtisafree
 google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 permalink:               /blog/:year/:month/:day/:title/
 exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md, vendor ]
+include:                 [ .well-known ]
 
 # markup
 markdown: kramdown
