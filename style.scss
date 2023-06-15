@@ -148,6 +148,10 @@ td.content {
   }
 }
 
+#me {
+    display: none;
+}
+
 a,a:hover,a:visited {
   color: $color-fg;
   text-decoration: none;
