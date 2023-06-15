@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" href="/imgs/icon.png" />
 
     <!-- Verification -->
-    <meta name="google-site-verification" content="{{ site.google-verification-key }}" />
+    <meta name="google-site-verification" content="{{ site.verification.google.key }}" />
 
     <!-- Third Parties -->
 
@@ -29,7 +29,7 @@
   <body>
 
     <div id="me">
-      {% for profile in site.me-profiles %}
+      {% for profile in site.me %}
         <a rel="me" href="{{ profile.url }}">{{ profile.name }}</a>
       {% endfor %}
     </div>
@@ -44,7 +44,7 @@
             |
             <a href="/blog/">Blog</a>
             |
-            <a href="{{ site.github-url }}">Code</a>
+            <a href="{{ site.code.url }}">Code</a>
           </p>
         </td>
       </tr>
