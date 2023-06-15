@@ -8,14 +8,18 @@ email:                   cf@curtisfree.com
 description:             "Husband &middot; Dad &middot; Geek"
 url:                     https://curtisfree.com
 color:                   olivedrab
-license-name:            "CC BY-SA 4.0"
-license-url:             https://creativecommons.org/licenses/by-sa/4.0/
 google-verification-key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 permalink:               /blog/:year/:month/:day/:title/
 exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md, vendor ]
 include:                 [ .well-known ]
 
+# github
 github-url: &github-url  https://github.com/cfree3
+
+# license
+license:
+    name: "CC BY-SA 4.0"
+    url:  https://creativecommons.org/licenses/by-sa/4.0/
 
 # "me" links (hidden on page but used for verification)
 me-profiles:

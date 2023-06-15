@@ -46,4 +46,4 @@ layout: default
 [fonts]:            https://fonts.google.com
 [icons]:            https://fontawesome.com
 [src]:              https://github.com/cfree3/curtisfree.com
-[copyleft]:         {{ site.license-url }}
+[copyleft]:         {{ site.license.url }}
