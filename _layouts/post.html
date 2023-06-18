@@ -1,7 +1,7 @@
 {% include doctype.html %}
-    <title>Curtis Free > Blog > {{ page.title }}</title>
+<title>Curtis Free > Blog > {{ page.title }}</title>
 {% include to_content.html %}
-          <h3><a href="/blog">Blog</a></h3>
-          <h4>{{ page.title }}<span class="tail"> @ {{ page.date | date: '%d %b %Y' }}</span></h4>
+      <h3><a href="/blog">Blog</a></h3>
+      <h4>{{ page.title }}<span class="tail"> @ {{ page.date | date: '%d %b %Y' }}</span></h4>
 {{ content }}
 {% include from_content.html %}

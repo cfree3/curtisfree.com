@@ -88,7 +88,7 @@ example, I [tweeted][googl_tweet] about [goo.gl][googl] recently, and you can se
 UIs (old on left, new on right):
 
 <div class="imgs">
-  <img src="/imgs/tweet_old.png" /><img src="/imgs/tweet_new.png" />
+  <img src="/imgs/tweet_old.png"><img src="/imgs/tweet_new.png">
 </div>
 
 Via RSS, you'll see the former -- so the regex I provided above should be sufficient.
