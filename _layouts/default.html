@@ -1,8 +1,8 @@
 {% include doctype.html %}
-<title>Curtis Free{% if page.title and page.title != '' %} &gt; {{ page.title }}{% endif %}</title>
+<title>Curtis Free{%- if page.title and page.title != '' -%} &gt; {{ page.title }}{%- endif -%}</title>
 {% include to_content.html %}
-{% if page.title and page.title != '' %}
+{%- if page.title and page.title != '' -%}
 <h3><span class="lead"><a href="{{ page.url }}">{{ page.title }}</a></span></h3>
 {{ content }}
-{% endif %}
+{%- endif -%}
 {% include from_content.html %}

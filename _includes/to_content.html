@@ -21,19 +21,23 @@
 {% else %}
 <!-- Canonicalization -->
 <link rel="canonical" href="{{ site.url }}{{ page.url | remove_first:'index.html' }}">
-{% endif %}
+{%- endif -%}
+{%- if page.title == '' %}
 
 <!-- Me! -->
 <div class="hidden">
-  {% for profile in site.me %}
+{% for profile in site.me %}
   <a rel="me" href="{{ profile.url }}">{{ profile.name }}</a>
-  {% endfor %}
+{%- endfor %}
+{{ page.title }}
 </div>
+{%- endif %}
 
-
-<table class="{% if page.title and page.title != '' %}header{% else %}profile{% endif %}">
+<!-- Headline -->
+<table class="{%- if page.title and page.title != '' -%}header{%- else -%}profile{%- endif -%}">
   <tr class="header">
-    <td><a href="/"><h1>Curtis&nbsp;Free</h1></a>
+    <td>
+      <a href="/"><h1>Curtis&nbsp;Free</h1></a>
     <td>
       <h2><a href="http://curtisandrebecca.com">Husband</a>&nbsp;&middot;&nbsp;<a href="http://matthewdrakefree.com">Dad</a>&nbsp;&middot;&nbsp;Geek</h2>
       <p>
@@ -42,8 +46,9 @@
         <a href="/blog/">Blog</a>
         |
         <a href="{{ site.code.url }}">Code</a>
-      </p>
 {% if page.title and page.title != '' %}
   <tr>
     <td class="content" colspan="2">
+
+<!-- Content -->
 {% endif %}
