@@ -42,7 +42,7 @@
         <a href="/blog/">Blog</a>
         |
         <a href="{{ site.code.url }}">Code</a>
-{% if page.title and page.title != '' %}
+{% if page.title and page.title != '' or page.layout == 'error' %}
   <tr>
     <td class="content" colspan="2">
 
