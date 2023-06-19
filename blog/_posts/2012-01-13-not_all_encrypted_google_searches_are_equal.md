@@ -15,7 +15,7 @@ connection means that there is increased potential for a session hijack (as high
 widely-publicized [Firesheep][firesheep]).
 
 <div class="imgs">
-  <a href="/imgs/g_https_encrypted.png"><img src="/imgs/g_https_encrypted.png" width="250" height="174"></a><a href="/imgs/g_https_www.png"><img src="/imgs/g_https_www.png" width="250" height="174"></a>
+  <a href="/blog/assets/g_https_encrypted.png"><img src="/blog/assets/g_https_encrypted.png" width="250" height="174"></a><a href="/blog/assets/g_https_www.png"><img src="/blog/assets/g_https_www.png" width="250" height="174"></a>
 </div>
 
 Aside from differences in each version's "frills," there is an important security-relevant

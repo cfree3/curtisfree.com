@@ -58,7 +58,7 @@ select the profile whose colors you wish to copy, and then click the "Edit" butt
 
 Now, go to the "Colors" tab. At the bottom, you'll see boxes that allow you to change each of the 16
 colors available in GNOME Terminal:
-![](/imgs/gnome_terminal_colors.png)
+![](/blog/assets/gnome_terminal_colors.png)
 
 The mapping is simple:
 
@@ -66,7 +66,7 @@ The mapping is simple:
         color8    color9    color10   color11   color12   color13   color14   color15
 
 If you click a color in the grid, you'll get the following window:
-![](/imgs/gnome_terminal_color_selection.png){: .seamless }
+![](/blog/assets/gnome_terminal_color_selection.png){: .seamless }
 (Note that the window title gives the color number -- the same as that in the above mapping table.)
 
 The value you need for your own `.Xdefaults` is the one in the "Color name" box.

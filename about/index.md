@@ -7,7 +7,7 @@ layout: default
 * A geek with [the most wonderful wife in the anywhere][curtisandrebecca] and [a perfect
   kid][matthewdrakefree]!
 
-![Photo of Curtis and his wife at their wedding](/imgs/wedding.jpg)
+![Photo of Curtis and his wife at their wedding](/about/assets/wedding.jpg)
 
 ##### Pronouns
 

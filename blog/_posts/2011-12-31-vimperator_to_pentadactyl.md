@@ -21,8 +21,8 @@ Recently, a friend asked me about the browser enhancement I was using, and when 
 herself, she discovered my new favorite Firefox extension:
 [Pentadactyl][pentadactyl].
 
-<div class="imgs">
-  <a href="/imgs/pentadactyl.png"><img src="/imgs/pentadactyl.png" width="250" height="152"></a><a href="/imgs/pentadactyl_focus.png"><img src="/imgs/pentadactyl_focus.png" width="250" height="152"></a>
+<div class="blog/assets">
+  <a href="/blog/assets/pentadactyl.png"><img src="/blog/assets/pentadactyl.png" width="250" height="152"></a><a href="/blog/assets/pentadactyl_focus.png"><img src="/blog/assets/pentadactyl_focus.png" width="250" height="152"></a>
 </div>
 
 Pentadactyl began as a fork of pre-3.0 Vimperator when two of the latter's primary developers left

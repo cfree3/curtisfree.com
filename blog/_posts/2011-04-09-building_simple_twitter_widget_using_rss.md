@@ -17,7 +17,7 @@ feeds.
 To see the feed for your own tweets, visit your Twitter profile using the old
 Twitter interface (I'm not sure where to find the RSS URL in the new UI). Below the
 icons of your followers, you should see a link to an RSS feed of your tweets:
-![](/imgs/twitter_rss.png)
+![](/blog/assets/twitter_rss.png)
 
 Copy that URL: you'll need it later.
 
@@ -88,7 +88,7 @@ example, I [tweeted][googl_tweet] about [goo.gl][googl] recently, and you can se
 UIs (old on left, new on right):
 
 <div class="imgs">
-  <img src="/imgs/tweet_old.png"><img src="/imgs/tweet_new.png">
+  <img src="/blog/assets/tweet_old.png"><img src="/blog/assets/tweet_new.png">
 </div>
 
 Via RSS, you'll see the former -- so the regex I provided above should be sufficient.

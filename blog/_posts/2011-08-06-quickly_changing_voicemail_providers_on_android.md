@@ -2,7 +2,7 @@
 title:  Quickly changing voicemail providers on Android
 layout: post
 ---
-![](/imgs/vmswitch.png){: .left }
+![](/blog/assets/vmswitch.png){: .left }
 
 I have a Motorola Droid. Rather than using Verizon's own voicemail service, I choose to manage
 my voicemail via [Google Voice][google_voice].

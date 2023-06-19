@@ -8,19 +8,19 @@ and noticed something about the pager (shown below the app results).
 
 The formula is simple. If on a page `x, x <= 5`, the paging menu allows selection of the first `x *
 2` pages:
-![](/imgs/am_pg_1.png)
-![](/imgs/am_pg_2.png)
-![](/imgs/am_pg_3.png)
-![](/imgs/am_pg_4.png)
-![](/imgs/am_pg_5.png)
+![](/blog/assets/am_pg_1.png)
+![](/blog/assets/am_pg_2.png)
+![](/blog/assets/am_pg_3.png)
+![](/blog/assets/am_pg_4.png)
+![](/blog/assets/am_pg_5.png)
 
 If on a page `5 <= x < 10`, the user is always presented with a selection of the first 10 pages:
-![](/imgs/am_pg_9.png)
+![](/blog/assets/am_pg_9.png)
 
 Then, for any page `x >= 10`, the user is presented with a list of pages from `x -5` through
 `x + 5` (inclusive -- total of 11 pages):
-![](/imgs/am_pg_10.png)
-![](/imgs/am_pg_12.png)
+![](/blog/assets/am_pg_10.png)
+![](/blog/assets/am_pg_12.png)
 
 This is a departure from the usual: most sites with such paging menus offer the user a constant
 number of pages for selection (surrounding the current page).

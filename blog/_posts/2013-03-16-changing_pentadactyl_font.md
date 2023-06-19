@@ -21,7 +21,7 @@ From Pentadactyl, open the Firefox preferences using `:dialog preferences`. Then
 tab, look for the "Fonts & Colors" section, and click the "Advanced" button. Here you can set your
 preferred monospace font.
 
-![](/imgs/firefox_font_settings.png){: .seamless }
+![](/blog/assets/firefox_font_settings.png){: .seamless }
 
 Restart Firefox, and (assuming no other overrides) Pentadactyl will begin using the font you
 specified.

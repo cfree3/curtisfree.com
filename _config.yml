@@ -8,7 +8,7 @@ email:                   cf@curtisfree.com
 description:             "Husband &middot; Dad &middot; Geek"
 url:                     https://curtisfree.com
 color:                   olivedrab
-permalink:               /blog/:year/:month/:day/:title/
+permalink:               /:categories/:year/:month/:day/:title/
 exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md, vendor ]
 include:                 [ .well-known ]
 

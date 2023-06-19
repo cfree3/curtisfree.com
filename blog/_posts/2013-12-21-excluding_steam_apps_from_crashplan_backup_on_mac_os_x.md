@@ -20,7 +20,7 @@ First, find the **Files** area in the CrashPlan application. Typically this spec
 directory. Then click the **Change...** button. In the resulting directory tree dialog, navigate
 to `~/Library/Application Support/Steam` and uncheck `SteamApps`:
 
-![](/imgs/crashplan_exclude_steam_apps.png){: .seamless }
+![](/blog/assets/crashplan_exclude_steam_apps.png){: .seamless }
 
 Click the **Save** button, and that's it! CrashPlan will "synchronize" with your backup
 destinations, and you should see the size of your backup decrease.

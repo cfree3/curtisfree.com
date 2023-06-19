@@ -12,7 +12,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
   * <a href="http://www.fial.com/~scott/tamsyn-font/">Tamsyn</a>
     <pre>-*-tamsyn-medium-r-*-*-14-*-*-*-*-*-*-*</pre>
-    <img src="/imgs/terminal_font_tamsyn.png" />
+    <img src="/blog/assets/terminal_font_tamsyn.png" />
 
     <p>
       There's just something about Tamsyn that I like (in addition to
@@ -28,7 +28,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
   * <a href="http://dejavu-fonts.org">DejaVu</a> Sans Mono
     <pre>xft:DejaVu Sans Mono:size=9</pre>
-    <img src="/imgs/terminal_font_dejavu.png" />
+    <img src="/blog/assets/terminal_font_dejavu.png" />
 
     <p>
       DejaVu Sans Mono is little more than Bitstream Vera Sans Mono &ndash; so here, I'm not
@@ -56,7 +56,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
   * <a href="http://terminus-font.sourceforge.net">Terminus</a>
     <pre>-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*</pre>
-    <img src="/imgs/terminal_font_terminus.png" />
+    <img src="/blog/assets/terminal_font_terminus.png" />
 
     <p>
       Terminus is well-known in the Arch Linux community &ndash; and for good reason. It's simply a
@@ -75,7 +75,7 @@ preferred configuration for each of the fonts in my preferred terminal, `rxvt-un
 
   * <a href="https://bbs.archlinux.org/viewtopic.php?id=130912">Termsyn</a>
     <pre>-*-termsyn-medium-r-*-*-14-*-*-*-*-*-*-*</pre>
-    <img src="/imgs/terminal_font_termsyn.png" />
+    <img src="/blog/assets/terminal_font_termsyn.png" />
 
     <p>
       Termsyn is a middle-ground between <i>Term</i>inus and Tam<i>syn</i>.
@@ -96,6 +96,6 @@ turn to Tamsyn as a substitute there.
 
 Furthermore, while it is still my go-to, later versions of Termsyn have adoped additional Tamsyn
 glyphs (in particular, note the difference in the **l** from above):
-![](/imgs/terminal_font_termsyn_later.png)
+![](/blog/assets/terminal_font_termsyn_later.png)
 
 [bitstream]: https://en.wikipedia.org/wiki/Bitstream_Vera

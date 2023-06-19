@@ -23,5 +23,5 @@ it's not difficult to set one up.
 To do so, click the message list _Arrange By_ header, go to _Custom Arrangements_, and choose _Edit
 Custom Arrangements._ Then, click _New_ and give your arrangement a name. Here are the settings I
 use to mimic _Priority Inbox_:
-<img class="seamless" src="/imgs/priority_settings.png" />
+<img class="seamless" src="/blog/assets/priority_settings.png" />
 

@@ -4,12 +4,12 @@ layout: post
 ---
 By default, Vim displays some information about the current buffer/state on its command line (the
 last line in the window):
-![](/imgs/laststatus_1.png)
+![](/blog/assets/laststatus_1.png)
 
 As of late, I like asking Vim to display a second line of information at all times (`:set
 laststatus=2`). This leaves some information displayed on the command line but moves other info to
 the "status line":
-![](/imgs/laststatus_2.png)
+![](/blog/assets/laststatus_2.png)
 
 As you can see in both screenshots, I have enabled Vim's "ruler" (`:set ruler`), which gives
 line, column, and position (the last few fields in the commandline and the status line,
@@ -39,7 +39,7 @@ instead of the default 14:
     :set statusline=%<%f\ %h%m%r%=%-20.(%l/%L,%c%V%)\ %P
 
 This gives a status line like the following:
-![](/imgs/laststatus_custom.png)
+![](/blog/assets/laststatus_custom.png)
 
 Of course, you can add `%L` anywhere you like in your own status line. To make this setting "stick,"
 add that line (minus the leading `:`) to your `~/.vimrc`.
