@@ -30,14 +30,16 @@ verification:
 me:
     - name: GitHub
       url:  *github
-    - name: Reddit
-      url:  https://www.reddit.com/user/curtisafree
-    - name: Twitter
-      url:  https://twitter.com/curtisafree
-    - name: Mastodon
-      url:  https://mastodon.social/@curtisafree
     - name: Instagram
       url:  https://instagram.com/curtisafree
+    - name: Mastodon
+      url:  https://mastodon.social/@curtisafree
+    - name: Reddit
+      url:  https://www.reddit.com/user/curtisafree
+    - name: Threads
+      url:  https://www.threads.net/@curtisafree
+    - name: Twitter
+      url:  https://twitter.com/curtisafree
 
 # markup
 markdown: kramdown
