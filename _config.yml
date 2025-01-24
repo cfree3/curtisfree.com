@@ -9,7 +9,7 @@ description:             "Husband &middot; Dad &middot; Geek"
 url:                     https://curtisfree.com
 color:                   olivedrab
 permalink:               /:categories/:year/:month/:day/:title/
-exclude:                 [ CNAME, Gemfile, Gemfile.lock, README.md, vendor ]
+exclude:                 [ CNAME, Gemfile, Gemfile.lock, compose.yml, README.md ]
 include:                 [ .well-known ]
 
 # github

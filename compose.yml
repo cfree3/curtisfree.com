@@ -1,0 +1,8 @@
+services:
+  jekyll:
+    image: docker.io/jekyll/jekyll:latest
+    ports:
+      - "4000:4000"
+    volumes:
+      - "${PWD}:/srv/jekyll"
+    command: jekyll serve --drafts --watch --force_polling
