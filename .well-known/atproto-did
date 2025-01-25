@@ -1,1 +1,4 @@
-did:plc:6ybpe5xp6lobzjhoa2kow5gn
+---
+layout: none
+---
+{{ site.verification.bluesky.key }}

@@ -23,6 +23,8 @@ license:
 
 # ownership verification
 verification:
+    bluesky:
+        key: "did:plc:6ybpe5xp6lobzjhoa2kow5gn"
     google:
         key: "snYf1sv_GydvZGyzaJsZ_rz-1OaXUhxdREvfm-ExzT8"
 
