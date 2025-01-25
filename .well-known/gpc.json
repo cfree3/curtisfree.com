@@ -1,4 +1,7 @@
+---
+layout: none
+---
 {
     "gpc": false,
-    "lastUpdate": "2023-06-10"
+    "lastUpdate": "{{ 'now' | date: '%Y-%m-%d' }}"
 }
