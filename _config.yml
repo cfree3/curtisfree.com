@@ -28,6 +28,8 @@ verification:
 
 # "me" links (hidden on page but used for verification)
 me:
+    - name: Bluesky
+      url:  https://bsky.app/profile/curtisfree.com
     - name: GitHub
       url:  *github
     - name: Instagram
