@@ -36,7 +36,6 @@ layout: default
 #### Website
 
 * Fonts from [Google Web Fonts][fonts].
-* Icons from [Font Awesome][icons].
 * Source on [GitHub][src].
 * Content under [copyleft][copyleft].
 
@@ -44,6 +43,5 @@ layout: default
 [matthewdrakefree]: https://matthewdrakefree.com
 [gatech]:           https://www.gatech.edu
 [fonts]:            https://fonts.google.com
-[icons]:            https://fontawesome.com
 [src]:              https://github.com/cfree3/curtisfree.com
 [copyleft]:         {{ site.license.url }}
