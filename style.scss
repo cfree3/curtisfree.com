@@ -2,21 +2,32 @@
 ---
 
 /*
- * Colors
- * ------
- */
-
-$color-fg: white;
-$color-bg: #222021;
-$color-theme: {{ site.color }};
-
-/*
  * Fonts
  * -----
  */
 
-$font: 'Source Code Pro', monospace;
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;700&display=swap');
+:root {
+  --font: 'Source Code Pro', monospace;
+}
+
+/*
+ * Colors
+ * ------
+ */
+
+:root {
+  --fg: {{ site.colors.light }};
+  --bg: {{ site.colors.dark }};
+  --accent: {{ site.colors.accent }};
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fg: {{ site.colors.dark }};
+    --bg: {{ site.colors.light }};
+  }
+}
 
 /*
  * Style
@@ -24,9 +35,9 @@ $font: 'Source Code Pro', monospace;
  */
 
 body {
-  background-color: $color-bg;
-  color: $color-fg;
-  font-family: $font;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
   font-weight: 300;
   text-align: justify;
   text-justify: inter-word;
@@ -40,7 +51,7 @@ table.profile {
   transform: translateX(-50%) translateY(-50%);
   width: 60%;
   h1 {
-    border-bottom: 5px solid $color-theme;
+    border-bottom: 5px solid var(--accent);
     padding-bottom: 0.25em;
   }
 }
@@ -57,12 +68,12 @@ table.header {
 }
 
 tr.header {
-  border-bottom: 5px solid $color-theme;
+  border-bottom: 5px solid var(--accent);
   text-align: center;
 }
 
 tr.footer {
-  color: $color-theme;
+  color: var(--accent);
   text-align: center;
   width: 75%;
   td {
@@ -124,10 +135,10 @@ td.content {
   a,
   a:hover,
   a:visited {
-    color: $color-theme;
+    color: var(--accent);
   }
   a:hover {
-    color: $color-fg;
+    color: var(--fg);
     text-decoration: none;
   }
   img {
@@ -138,7 +149,7 @@ td.content {
     margin-top: 1em;
     text-align: center;
     &:not(.seamless) {
-      border: 3px solid $color-theme;
+      border: 3px solid var(--accent);
     }
   }
   p {
@@ -154,17 +165,17 @@ td.content {
 a,
 a:hover,
 a:visited {
-  color: $color-fg;
+  color: var(--fg);
   text-decoration: none;
 }
 
 a:hover {
-  color: $color-theme;
+  color: var(--accent);
   text-decoration: none;
 }
 
 blockquote {
-  border-left: 5px solid $color-theme;
+  border-left: 5px solid var(--accent);
   font-size: 1em;
   margin-left: 2.0em;
   margin-right: 2.0em;
@@ -173,15 +184,21 @@ blockquote {
 }
 
 code {
-  border-bottom: 1px dashed $color-theme;
-  font-family: $font;
+  border-bottom: 1px dashed var(--accent);
+  font-family: var(--font);
+}
+
+p {
+  code {
+    white-space: nowrap;
+  }
 }
 
 pre {
-  border-bottom: 1px dashed $color-theme;
-  border-left: 5px solid $color-theme;
-  border-right: 1px dashed $color-theme;
-  border-top: 1px dashed $color-theme;
+  border-bottom: 1px dashed var(--accent);
+  border-left: 5px solid var(--accent);
+  border-right: 1px dashed var(--accent);
+  border-top: 1px dashed var(--accent);
   font-size: 1em;
   font-weight: 300;
   margin-left: 2.0em;
@@ -195,11 +212,11 @@ pre {
 
 span.lead,
 span.lead a {
-  color: $color-theme;
+  color: var(--accent);
 }
 
 span.tail {
-  color: $color-theme;
+  color: var(--accent);
   font-weight: 300;
 }
 
@@ -211,12 +228,12 @@ table.post_list {
   td {
     padding: 0.25em 1em 0.25em 1em;
     &.post_link {
-      color: $color-fg;
+      color: var(--fg);
       font-weight: normal;
       text-align: right;
     }
     &.post_date {
-      border-left: 5px solid $color-theme;
+      border-left: 5px solid var(--accent);
       font-weight: bold;
       text-align: center;
       vertical-align: left;
@@ -225,8 +242,8 @@ table.post_list {
 }
 
 hr {
-  border: 1px solid $color-theme;
-  color: $color-theme;
+  border: 1px solid var(--accent);
+  color: var(--accent);
   width: 85%;
 }
 
@@ -241,7 +258,7 @@ li {
 ul {
   list-style-type: square;
   li::marker {
-    color: $color-theme;
+    color: var(--accent);
   }
 }
 

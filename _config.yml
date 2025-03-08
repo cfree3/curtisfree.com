@@ -7,14 +7,19 @@ author:                  "Curtis Free"
 email:                   cf@curtisfree.com
 description:             "Husband &middot; Dad &middot; Geek"
 url:                     https://curtisfree.com
-color:                   olivedrab
 permalink:               /:categories/:year/:month/:day/:title/
 exclude:                 [ CNAME, Gemfile, Gemfile.lock, compose.yml, README.md ]
 include:                 [ .well-known ]
 
+# theme (colors)
+colors:
+    dark: "#222021"
+    light: "white"
+    accent: "olivedrab"
+
 # github
 code:
-  url: &github https://github.com/cfree3
+    url: &github https://github.com/cfree3
 
 # license
 license:
