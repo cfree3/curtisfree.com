@@ -39,8 +39,8 @@ layout: default
 * Source on [GitHub][src].
 * Content under [copyleft][copyleft].
 
-[curtisandrebecca]: https://curtisandrebecca.com
-[matthewdrakefree]: https://matthewdrakefree.com
+[curtisandrebecca]: https://www.curtisandrebecca.com
+[matthewdrakefree]: https://www.matthewdrakefree.com
 [gatech]:           https://www.gatech.edu
 [fonts]:            https://fonts.google.com
 [src]:              https://github.com/cfree3/curtisfree.com
