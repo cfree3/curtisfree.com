@@ -30,11 +30,12 @@
 {%- endif %}
 
 <!-- Headline -->
-<table class="{%- if page.title and page.title != '' -%}header{%- else -%}profile{%- endif -%}">
-  <tr class="header">
-    <td>
+<div id="{%- if page.title and page.title != '' -%}container{%- else -%}profile{%- endif -%}">
+  <div id="header">
+    <div id="name">
       <a href="/"><h1>Curtis&nbsp;Free</h1></a>
-    <td>
+    </div>
+    <div id="links">
       <h2><a href="https://www.curtisandrebecca.com">Husband</a>&nbsp;&middot;&nbsp;<a href="https://www.matthewdrakefree.com">Dad</a>&nbsp;&middot;&nbsp;Geek</h2>
       <p>
         <a href="/about/">About</a>
@@ -42,9 +43,10 @@
         <a href="/blog/">Blog</a>
         |
         <a href="{{ site.code.url }}">Code</a>
+    </div>
+  </div>
 {% if page.title and page.title != '' or page.layout == 'error' %}
-  <tr>
-    <td class="content" colspan="2">
+  <div id="content">
 
 <!-- Content -->
 {% endif %}
