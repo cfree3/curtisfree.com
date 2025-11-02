@@ -7,7 +7,9 @@ as of a different revision.
 
 Git makes this easy:
 
-    % git show ${revision}:${path_to_file}
+```sh
+% git show ${revision}:${path_to_file}
+```
 
 `${path_from_repo_root}` is the path to the file from the "root" of the repository (the directory
 where the repo's `.git` subdirectory lives). `${revision}` specifies the Git revision (see `git help
@@ -17,4 +19,6 @@ If you're a Vim user, you can easily view the file in a Vim buffer -- and with s
 Assuming that the Vim-recognized filetype specification is `${filetype}`, the following will do the
 trick:
 
-    % git show ${revision}:${path_to_file} | vim -R -c "set ft=${filetype}" -
+```sh
+% git show ${revision}:${path_to_file} | vim -R -c "set ft=${filetype}" -
+```

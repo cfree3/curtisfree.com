@@ -28,18 +28,22 @@ called `color0`, `color1`, etc., though `color15`.
 To set these colors for use by all applications that understand X resources, you simply need to add
 lines like the following to `~/.Xdefaults`:
 
-    *color0:  #000000
-    *color8:  #555555
-    ! ... (this is a comment)
-    *color7:  #AAAAAA
-    *color15: #FFFFFF
+```text
+*color0:  #000000
+*color8:  #555555
+! ... (this is a comment)
+*color7:  #AAAAAA
+*color15: #FFFFFF
+```
 
 (You'll notice that those aren't all in order. The reason isn't really important here; if you're
 curious, search around for more information on colors in X resources/`.Xdefaults`.)
 
 After your colors are set, you can load them by issuing the following command:
 
-    % xrdb -merge ~/.Xdefaults
+```sh
+% xrdb -merge ~/.Xdefaults
+```
 
 The modified settings will then take effect when the affected application is restarted.
 
@@ -62,8 +66,10 @@ colors available in GNOME Terminal:
 
 The mapping is simple:
 
-        color0    color1    color2    color3    color4    color5    color6    color7
-        color8    color9    color10   color11   color12   color13   color14   color15
+```text
+color0    color1    color2    color3    color4    color5    color6    color7
+color8    color9    color10   color11   color12   color13   color14   color15
+```
 
 If you click a color in the grid, you'll get the following window:
 ![](/blog/assets/gnome_terminal_color_selection.png){: .seamless }
@@ -79,31 +85,35 @@ your color settings in your own `~/.Xdefaults`.
 As I mentioned earlier, I use the GNOME Terminal "Linux console" colors on my personal (Arch)
 machine. Here are the colors, taken from my own [`.Xdefaults`](/config/.Xdefaults):
 
-    ! colors
-    !! Taken from GNOME Terminal "Linux console" theme.
-    *color0:  #000000
-    *color8:  #555555
-    *color1:  #AA0000
-    *color9:  #FF5555
-    *color2:  #00AA00
-    *color10: #55FF55
-    *color3:  #AA5500
-    *color11: #FFFF55
-    *color4:  #0000AA
-    *color12: #5555FF
-    *color5:  #AA00AA
-    *color13: #FF55FF
-    *color6:  #00AAAA
-    *color14: #55FFFF
-    *color7:  #AAAAAA
-    *color15: #FFFFFF
+```text
+! colors
+!! Taken from GNOME Terminal "Linux console" theme.
+*color0:  #000000
+*color8:  #555555
+*color1:  #AA0000
+*color9:  #FF5555
+*color2:  #00AA00
+*color10: #55FF55
+*color3:  #AA5500
+*color11: #FFFF55
+*color4:  #0000AA
+*color12: #5555FF
+*color5:  #AA00AA
+*color13: #FF55FF
+*color6:  #00AAAA
+*color14: #55FFFF
+*color7:  #AAAAAA
+*color15: #FFFFFF
+```
 
 I also prefer a white background, with black "normal" text. These two "special" colors are set
 as follows:
 
-    ! bg/fg
-    *background: white
-    *foreground: black
+```text
+! bg/fg
+*background: white
+*foreground: black
+```
 
 (Note that some colors can, in fact, be set by name rather than hex `#RRGGBB` values.)
 

@@ -14,11 +14,11 @@ I used [Arch Linux][arch] from 2007-2012, and it was great. While most Linux dis
 customized to no end, I would say that that is especially so with Arch. When you install Arch, you
 get a command line -- and that's it:
 
-  1. Install Arch base.
-  2. Install video drivers.
-  3. Install X11.
-  4. Install a desktop environment or (the more minimal route) a window manager and other
-     applications.
+1. Install Arch base.
+2. Install video drivers.
+3. Install X11.
+4. Install a desktop environment or (the more minimal route) a window manager and other
+   applications.
 
 I call this approach _going up_ because you start with nothing and build the system into exactly
 what you need. While that's true in regards to the whole system, specifically I am referring to the
@@ -86,7 +86,8 @@ manager on top of it. But one still must deal with _other_ unwanted features of 
 solution that meets many of his/her needs but must tear it down _and_ add to it to reach an
 acceptable state.
 
-> @curtisafree I like the metaphor.  How would you consider something like emacs/vim compared to newer environments?
+> @curtisafree I like the metaphor.  How would you consider something like emacs/vim compared to
+> newer environments?
 >
 > &mdash; [Josh Berry][tweet-jb]
 

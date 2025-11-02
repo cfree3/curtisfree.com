@@ -24,19 +24,25 @@ The `'statusline'` option dictates what information is displayed on the status l
 option is blank by default, one must dig through [the documentation][vim_statusline] to find the
 true default. Here's the relevant snippet:
 
-    Emulate standard status line with 'ruler' set
-      :set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+```text
+Emulate standard status line with 'ruler' set
+  :set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+```
 
 `%l` is the current line number. I like to place the total line count (`%L`) just after that, as a
 fraction:
 
-    :set statusline=%<%f\ %h%m%r%=%-14.(%l/%L,%c%V%)\ %P
+```vim
+:set statusline=%<%f\ %h%m%r%=%-14.(%l/%L,%c%V%)\ %P
+```
 
 If you expect to edit very large buffers, you might also wish to give Vim some additional space to
 the right for many-digit line counts. Here, we give the line/column count group 20 characters
 instead of the default 14:
 
-    :set statusline=%<%f\ %h%m%r%=%-20.(%l/%L,%c%V%)\ %P
+```vim
+:set statusline=%<%f\ %h%m%r%=%-20.(%l/%L,%c%V%)\ %P
+```
 
 This gives a status line like the following:
 ![](/blog/assets/laststatus_custom.png)

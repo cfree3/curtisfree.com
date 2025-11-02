@@ -36,12 +36,14 @@ Pentadactyl to apply `FontFixed` styling to other groups.
 Replacing `9pt` with your preferred font size, and the following to your
 [`.pentadactylrc`][pentadactylrc]:
 
-    hi FontFixed -append font-size: 9pt !important;
+```vim
+hi FontFixed -append font-size: 9pt !important;
 
-    " some groups -- such as `CmdLine` and `StatusLine` -- are linked by default
-    hi -append -link FontFixed Hint
-    hi -append -link FontFixed CompItem
-    hi -append -link FontFixed CompTitle
+" some groups -- such as `CmdLine` and `StatusLine` -- are linked by default
+hi -append -link FontFixed Hint
+hi -append -link FontFixed CompItem
+hi -append -link FontFixed CompTitle
+```
 
 [pentadactyl]:   /blog/2011/12/31/vimperator_to_pentadactyl
 [monospace]:     /blog/2012/05/12/preferred_monospace_fonts

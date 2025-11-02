@@ -37,11 +37,10 @@ layout: default
 
 * Fonts from [Google Web Fonts][fonts].
 * Source on [GitHub][src].
-* Content under [copyleft][copyleft].
+* Content under [copyleft]({{ site.license.url }}).
 
 [curtisandrebecca]: https://www.curtisandrebecca.com
 [matthewdrakefree]: https://www.matthewdrakefree.com
 [gatech]:           https://www.gatech.edu
 [fonts]:            https://fonts.google.com
 [src]:              https://github.com/cfree3/curtisfree.com
-[copyleft]:         {{ site.license.url }}

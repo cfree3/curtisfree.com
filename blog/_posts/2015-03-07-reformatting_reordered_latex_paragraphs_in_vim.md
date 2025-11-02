@@ -8,7 +8,7 @@ deconstructed the text into separate sentences in the source to make reordering 
 
 As an extreme example, I would go from [this][lipsum]:
 
-~~~ latex
+```latex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar
 neque nec odio auctor ultricies. Ut maximus libero nibh, eget tempus
 nulla convallis nec. Ut auctor, augue eget ornare tincidunt, leo risus
@@ -21,11 +21,11 @@ placerat ut vulputate sed, vehicula eget nisl. Nulla gravida, erat non
 pretium efficitur, ligula sem consequat sem, vitae mattis tellus lectus
 in diam. Aenean in luctus velit. Cras lacinia lorem eget euismod
 faucibus.
-~~~
+```
 
 To this (sentences in question starting on newlines):
 
-~~~ latex
+```latex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 In pulvinar
 neque nec odio auctor ultricies.
@@ -42,11 +42,11 @@ placerat ut vulputate sed, vehicula eget nisl. Nulla gravida, erat non
 pretium efficitur, ligula sem consequat sem, vitae mattis tellus lectus
 in diam. Aenean in luctus velit. Cras lacinia lorem eget euismod
 faucibus.
-~~~
+```
 
 Then to this (some sentences reordered):
 
-~~~ latex
+```latex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Ut auctor, augue eget ornare tincidunt, leo risus
 porta eros, id auctor metus mauris sit amet turpis. Nullam malesuada
@@ -63,13 +63,13 @@ placerat ut vulputate sed, vehicula eget nisl. Nulla gravida, erat non
 pretium efficitur, ligula sem consequat sem, vitae mattis tellus lectus
 in diam. Aenean in luctus velit. Cras lacinia lorem eget euismod
 faucibus.
-~~~
+```
 
 With the sentences reordered, I needed to reformat the source to restore the clean style seen in the
 first example. Those familar with Vim likely think of `gq`, which reformats the selected source. To
 help further, `vip` will visually select the paragraph! So, what about `vipgq`?
 
-~~~
+```latex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Ut auctor,
 augue eget ornare tincidunt, leo risus porta eros, id auctor metus
 mauris sit amet turpis. Nullam malesuada pharetra nunc, sed faucibus
@@ -82,15 +82,15 @@ placerat ut vulputate sed, vehicula eget nisl. Nulla gravida, erat non
 pretium efficitur, ligula sem consequat sem, vitae mattis tellus lectus
 in diam. Aenean in luctus velit. Cras lacinia lorem eget euismod
 faucibus.
-~~~
+```
 
 While that looks nice at quick glance, further inspection reveals that there are two spaces between
 certain sentences. Some additional Vim commands can clean that up, but it's even easier if one
 introduces a command to accomplish the task. I added the following to my Vim configuration:
 
-~~~ vim
+```vim
 map <C-e> vipgqgv:s/ \{2,\}/ /g<CR>:noh<CR>
-~~~
+```
 
 Now, `<C-e>` will do several things:
 
@@ -105,7 +105,7 @@ spaces should I have space indents and the like elsewhere in my source.)
 
 Using `<C-e>` on the reconstructed paragraph yields the following:
 
-~~~ latex
+```latex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor,
 augue eget ornare tincidunt, leo risus porta eros, id auctor metus
 mauris sit amet turpis. Nullam malesuada pharetra nunc, sed faucibus
@@ -118,6 +118,6 @@ placerat ut vulputate sed, vehicula eget nisl. Nulla gravida, erat non
 pretium efficitur, ligula sem consequat sem, vitae mattis tellus lectus
 in diam. Aenean in luctus velit. Cras lacinia lorem eget euismod
 faucibus.
-~~~
+```
 
 [lipsum]: http://www.lipsum.com/

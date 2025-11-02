@@ -14,7 +14,7 @@ to Vim's built-in spellchecker.
 Add the following to your Vim config (`~/.vimrc`) to enable this feature specifically for Git
 commits:
 
-~~~ vim
+```vim
 " ensure Vim can work with filetypes
 filetype plugin on
 
@@ -23,7 +23,7 @@ set spelllang=en_us
 
 " enable spellcheck for Git commits
 autocmd FileType gitcommit setlocal spell
-~~~
+```
 
 There's a lot more you can do with Vim's spellchecker; see `:help spell` for more information.
 

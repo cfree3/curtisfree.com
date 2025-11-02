@@ -23,34 +23,38 @@ Ensure that you do not list any files you do **not** want at all (files like the
 Now, barring any changes you have made to files that _are_ in your repo, `git status` can be used
 to reveal a quick list of any unwanted files that have accumulated:
 
-    % git st # 'st' is an alias I have set for 'status'
-    # On branch master
-    # Untracked files:
-    #   (use "git add <file>..." to include in what will be committed)
-    #
-    #       .esd_auth
-    #       .gconfd/
-    #       .macromedia/
-    #       .viminfo
-    #       .vimperator/
-    #       .zcompdump
-    #       .zsh_history
-    nothing added to commit but untracked files present (use "git add" to track)
+```text
+% git st # 'st' is an alias I have set for 'status'
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       .esd_auth
+#       .gconfd/
+#       .macromedia/
+#       .viminfo
+#       .vimperator/
+#       .zcompdump
+#       .zsh_history
+nothing added to commit but untracked files present (use "git add" to track)
+```
 
 One caveat: Git will _not_ "alert" you to unwanted directories (including nested directories) if
-they contain no actual files (see why [here][google_empty_dirs]):
+they contain no actual files ([just Google to see why][google_empty_dirs]):
 
-    % grep ".adobe" .git/info/exclude
-    % tree .adobe
-    .adobe
-    `-- Flash_Player
-        `-- AssetCache
-            `-- 5885UGDY
+```text
+% grep ".adobe" .git/info/exclude
+% tree .adobe
+.adobe
+`-- Flash_Player
+    `-- AssetCache
+        `-- 5885UGDY
 
-    3 directories, 0 files
-    % git st
-    # On branch master
-    nothing to commit (working directory clean)
+3 directories, 0 files
+% git st
+# On branch master
+nothing to commit (working directory clean)
+```
 
 [config]:            /config
 [github]:            https://github.com/

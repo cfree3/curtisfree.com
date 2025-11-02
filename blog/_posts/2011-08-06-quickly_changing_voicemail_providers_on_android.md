@@ -13,7 +13,7 @@ a voicemail in the caller's own Verizon mailbox). Until this point, I had not ev
 voicemail, and so I never received the message.
 
 I have since set up my Verizon mailbox; however, I continue to use Google's services over Verizon's
-own. The problem: *what do I do if someone sends me a voicemail reply in the future?* To reconcile
+own. The problem: _what do I do if someone sends me a voicemail reply in the future?_ To reconcile
 my desire to use one voicemail provider and my need to have access to another, I need a quick way
 to switch between mailboxes.
 

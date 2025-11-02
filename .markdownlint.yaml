@@ -1,0 +1,16 @@
+# .markdownlint.yaml
+## Configuration for linting with markdownlint-cli2.
+
+default: true
+MD001: false
+MD013:
+  line_length: 100
+  heading_line_length: 50
+  code_block_line_length: 100
+MD026: false
+MD033: false
+MD045: false
+MD046:
+  style: "fenced"
+MD049:
+  style: "underscore"

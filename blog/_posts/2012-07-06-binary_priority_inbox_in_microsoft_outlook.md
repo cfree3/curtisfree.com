@@ -7,10 +7,10 @@ his/her inbox into multiple categories based on message attributes.
 
 I use a simple inbox configuration in Gmail. In Google's terms:
 
-  1. Important and unread
-  2. Unread
-  3. Starred
-  4. Everything else
+1. Important and unread
+2. Unread
+3. Starred
+4. Everything else
 
 Perhaps most importantly, among read messages, starred messages are presented above unstarred
 messages. I use a star to indicate that I need to take further action on an email at some point. The
@@ -24,4 +24,3 @@ To do so, click the message list _Arrange By_ header, go to _Custom Arrangements
 Custom Arrangements._ Then, click _New_ and give your arrangement a name. Here are the settings I
 use to mimic _Priority Inbox_:
 <img class="seamless" src="/blog/assets/priority_settings.png" />
-

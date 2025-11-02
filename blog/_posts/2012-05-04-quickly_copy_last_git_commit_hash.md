@@ -4,13 +4,15 @@ layout: post
 ---
 A typical portion of my Git workflow involves the following:
 
-  1. Local `git commit`
-  2. `git push` to upstream remote
-  3. Add a comment to an issue tracker that includes the new commit hash
+1. Local `git commit`
+2. `git push` to upstream remote
+3. Add a comment to an issue tracker that includes the new commit hash
 
 A simple shell (ZSH, BASH, or similar) function makes the last step a little bit easier:
 
-    gitcp() { git log -1 --format="%H" | xclip -in; }
+```sh
+gitcp() { git log -1 --format="%H" | xclip -in; }
+```
 
 After running `gitcp`, the hash of the last commit is in X's primary selection and can easily be
 pasted into a comment box in the issue tracker.
