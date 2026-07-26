@@ -1,8 +1,11 @@
+# compose.yaml
+## Podman configuration for testing the site locally.
+
 services:
   jekyll:
-    image: docker.io/jekyll/jekyll:latest
+    image: docker.io/jekyll/jekyll:pages
     ports:
       - "4000:4000"
     volumes:
       - "${PWD}:/srv/jekyll"
-    command: jekyll serve --drafts --watch --force_polling
+    command: jekyll serve --host 0.0.0.0 --drafts --watch --force_polling
