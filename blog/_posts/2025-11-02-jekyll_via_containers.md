@@ -57,16 +57,16 @@ containers you run on your Mac will _actually_ run on a Linux virtual machine.
 Podman makes this trivial:
 
 ```sh
-podman-machine init --now
+podman machine init --now
 ```
 
 (The `--now` flag tells Podman to start the virtual machine immediately.)
 
 You can tweak the configuration of this virtual machine, create multiple, etc.; but the defaults are
-just fine for wokig with Jekyll.
+just fine for working with Jekyll.
 
 From this point, enter the topmost directory of your Jekyll site (in many cases, the root of a Git
-repository). This is where you have `_config.yml`. The following [incantation][incantation] will
+repository). This is where you have `_config.yaml`. The following [incantation][incantation] will
 start a Jekyll container hosting your site on `http://localhost:4000`:
 
 [incantation]: https://github.com/envygeeks/jekyll-docker/blob/master/README.md
@@ -76,7 +76,7 @@ podman run --rm -it \
   -v "${PWD}":/srv/jekyll \
   -p 4000:4000 \
   docker.io/jekyll/jekyll:latest \
-  jekyll serve --drafts --watch --force_polling
+  jekyll serve --host 0.0.0.0 --drafts --watch --force_polling
 ```
 
 **That's a mouthful, isn't it?** Two specific notes on this command:
@@ -90,7 +90,7 @@ podman run --rm -it \
 [polling]: https://github.com/envygeeks/jekyll-docker/issues/281
 
 When you are done, just press `<C-c>` to stop the process. `--rm` means that the container will be
-removed (though the `jekyll/jekyll:latest` image is still cached locally).
+removed (though the `jekyll/jekyll:pages` image is still cached locally).
 
 Can we make this cleaner? Yes! Enter `compose`. First, let's turn back to Homebrew:
 
@@ -103,24 +103,24 @@ sort, [Docker Compose][compose].
 
 [compose]: https://docs.docker.com/compose/
 
-Now you can create a simple file at the root of your site/repository called `compose.yml`:
+Now you can create a simple file at the root of your site/repository called `compose.yaml`:
 
 ```yaml
 services:
   jekyll:
-    image: docker.io/jekyll/jekyll:latest
+    image: docker.io/jekyll/jekyll:pages
     ports:
       - "4000:4000"
     volumes:
       - "${PWD}:/srv/jekyll"
-    command: jekyll serve --drafts --watch --force_polling
+    command: jekyll serve --host 0.0.0.0 --drafts --watch --force_polling
 ```
 
-Go ahead and update your `_config.yml` so that the compose file will not be included in your site:
+Go ahead and update your `_config.yaml` so that the compose file will not be included in your site:
 
 ```yaml
 ...
-exclude: [ compose.yml ]
+exclude: [ compose.yaml ]
 ...
 ```
 
@@ -146,3 +146,10 @@ containers available in the Docker container registry.
 
 If the above steps don't do _quite_ what you want, the possibilities are endless. You can build out
 your own solution!
+
+##### _Update (7 Aug 2026)_
+
+I have corrected a couple of errors and updated the above to reflect my [current working test
+setup][update_commit].
+
+[update_commit]: https://github.com/cfree3/curtisfree.com/commit/40e86c7854cd71c78a1d0a040be7602b0918f31c
