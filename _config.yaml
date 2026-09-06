@@ -8,7 +8,7 @@ email:                   cf@curtisfree.com
 description:             "Husband &middot; Dad &middot; Geek"
 url:                     https://curtisfree.com
 permalink:               /:categories/:year/:month/:day/:title/
-exclude:                 [ CNAME, compose.yaml, .markdownlint.yaml, README.md ]
+exclude:                 [ CNAME, compose.yaml, .markdownlint.yaml, README.md, Taskfile.yaml ]
 include:                 [ .well-known ]
 
 # theme (colors)

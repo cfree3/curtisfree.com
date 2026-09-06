@@ -1,0 +1,38 @@
+# Taskfile.yaml
+## Tasks to support local site development.
+
+version: '3'
+
+vars:
+  SITE: "curtisfree.com"
+
+tasks:
+
+  lint:
+    desc: "Run linter(s) against the codebase"
+    cmds:
+      - cmd: markdownlint-cli2 "**/*.md"
+
+  setup:
+    desc: "Create and start a Podman machine for local site builds and testing"
+    cmds:
+      - cmd: podman machine init --now "{{.SITE}}"
+
+  teardown:
+    desc: "Stop and remove the Podman machine"
+    preconditions:
+      - sh: podman machine inspect "{{.SITE}}"
+        msg: "Podman machine not running; nothing to do!"
+    cmds:
+      - cmd: podman machine rm --force "{{.SITE}}"
+
+  serve:
+    desc: "Build the site and serve it locally using a Podman container"
+    preconditions:
+      - sh: podman machine inspect "{{.SITE}}"
+        msg: "Podman machine not running; try `task setup` first"
+    cmds:
+      - cmd: podman compose up
+        # <C-c> does not always exit cleanly (nonzero error code)
+        ignore_error: true
+      - cmd: podman compose down
